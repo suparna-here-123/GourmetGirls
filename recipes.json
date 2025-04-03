@@ -1,0 +1,416 @@
+[
+    {
+        "Name": "Garlic Mushroom Stir-Fry",
+        "Cuisine": "Asian",
+        "Course": "Main",
+        "Non-dairy ingredients": {
+            "garlic": 2,
+            "onion": 1,
+            "carrot": 1,
+            "mushrooms": 5,
+            "ginger": 1,
+            "green chilli": 1
+        },
+        "dairy ingredients": {},
+        "Prep time": "20 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "Heat oil in a pan and saut\u00e9 garlic, onion, and ginger until fragrant. Add carrots, mushrooms, and green chilli. Stir-fry on medium heat for 5-7 minutes. Season with salt and pepper. Serve hot.",
+        "servings": 3
+    },
+    {
+        "Name": "Chicken & Vegetable Stew",
+        "Cuisine": "Continental",
+        "Course": "Main",
+        "Non-dairy ingredients": {
+            "carrot": 2,
+            "potato": 2,
+            "onion": 1,
+            "garlic": 4,
+            "chicken breast": 3
+        },
+        "dairy ingredients": {},
+        "Prep time": "35 minutes",
+        "meat": true,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "In a pot, saut\u00e9 garlic and onion until soft. Add diced potatoes and carrots. Pour water or broth and bring to a boil. Add chicken pieces and cook until tender. Adjust seasoning and serve warm.",
+        "servings": 4
+    },
+    {
+        "Name": "Vegetable & Egg Stir-Fry",
+        "Cuisine": "Chinese",
+        "Course": "Main",
+        "Non-dairy ingredients": {
+            "capsicum": 5,
+            "onion": 3,
+            "garlic": 4,
+            "eggs": 2,
+            "carrot": 3
+        },
+        "dairy ingredients": {},
+        "Prep time": "15 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [
+            "eggs"
+        ],
+        "recipe": "Beat the eggs and set aside. Stir-fry garlic, onion, capsicum, and carrot until semi-soft. Add beaten eggs and scramble. Season with salt and pepper. Serve hot with rice or on its own.",
+        "servings": 6
+    },
+    {
+        "Name": "Spicy Cabbage & Potato Stir-Fry",
+        "Cuisine": "Indian",
+        "Course": "Main",
+        "Non-dairy ingredients": {
+            "cabbage": 2,
+            "potato": 5,
+            "onion": 2,
+            "garlic": 3,
+            "green chilli": 2
+        },
+        "dairy ingredients": {},
+        "Prep time": "25 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "Heat oil in a pan. Fry garlic and onion until golden. Add potatoes and cook until soft. Add cabbage and green chilli, stir well. Cook for 5 more minutes, season, and serve with flatbread or rice.",
+        "servings": 3
+    },
+    {
+        "Name": "Chocolate Banana Delight",
+        "Cuisine": "Fusion",
+        "Course": "Dessert",
+        "Non-dairy ingredients": {
+            "banana": 1,
+            "chocolate": 4,
+            "sugar": 4
+        },
+        "dairy ingredients": {},
+        "Prep time": "10 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "Melt chocolate in a bowl. Slice bananas and dip them into the melted chocolate. Sprinkle sugar on top if desired. Chill for 10 minutes before serving.",
+        "servings": 3
+    },
+    {
+        "Name": "Classic Egg Curry",
+        "Course": "Main",
+        "Cuisine": "Indian",
+        "Non-dairy ingredients": {
+            "onion": 2,
+            "garlic": 2,
+            "ginger": 2,
+            "green chilli": 2,
+            "potato": 4,
+            "eggs": 1
+        },
+        "dairy ingredients": {},
+        "Prep time": "30 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [
+            "eggs"
+        ],
+        "recipe": "Boil eggs and potatoes. In a pan, saut\u00e9 garlic, ginger, and onion. Add green chilli and spices. Add boiled potatoes and eggs. Simmer for 10 minutes. Serve hot with rice or flatbread.",
+        "servings": 6
+    },
+    {
+        "Name": "Apple & Blueberry Fruit Salad",
+        "Course": "Dessert",
+        "Cuisine": "Continental",
+        "Non-dairy ingredients": {
+            "apple": 5,
+            "blueberries": 3
+        },
+        "dairy ingredients": {},
+        "Prep time": "5 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "Chop apples into bite-sized pieces. Mix gently with fresh blueberries. Optionally sprinkle with sugar or a pinch of salt. Serve chilled.",
+        "servings": 6
+    },
+    {
+        "Name": "Carrot Halwa",
+        "Course": "Dessert",
+        "Cuisine": "Indian",
+        "Non-dairy ingredients": {
+            "carrot": 4,
+            "sugar": 3
+        },
+        "dairy ingredients": {},
+        "Prep time": "40 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "Grate carrots and cook in a pan. Add sugar and stir continuously. Let it cook on low heat until soft and slightly caramelized. Serve warm or cold.",
+        "servings": 3
+    },
+    {
+        "Name": "Beetroot & Apple Dessert Bowl",
+        "Course": "Dessert",
+        "Cuisine": "Indian-Fusion",
+        "Non-dairy ingredients": {
+            "beet": 4,
+            "apple": 5,
+            "sugar": 1
+        },
+        "dairy ingredients": {},
+        "Prep time": "20 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "Boil beetroot until soft, then dice it. Chop apples. Mix both in a bowl with sugar. Chill for 10 minutes and serve as a refreshing dessert.",
+        "servings": 5
+    },
+    {
+        "Name": "Potato & Brinjal Masala Curry",
+        "Course": "Main",
+        "Cuisine": "Indian",
+        "Non-dairy ingredients": {
+            "potato": 4,
+            "brinjal": 2,
+            "onion": 4,
+            "garlic": 3,
+            "ginger": 2,
+            "green chilli": 5
+        },
+        "dairy ingredients": {},
+        "Prep time": "35 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "Saut\u00e9 garlic, onion, and ginger in oil. Add diced potatoes and brinjal. Cook with spices and green chilli until soft. Add water to make gravy. Simmer and serve with rice or roti.",
+        "servings": 3
+    },
+    {
+        "Name": "Carrot Ladoo",
+        "Course": "Dessert",
+        "Cuisine": "Indian",
+        "Non-dairy ingredients": {
+            "carrot": 3,
+            "sugar": 5
+        },
+        "dairy ingredients": {},
+        "Prep time": "30 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "Grate carrots and cook them in a pan with sugar on low heat. Keep stirring until moisture evaporates. Shape into small ladoos while warm. Cool and serve.",
+        "servings": 6
+    },
+    {
+        "Name": "Spicy Potato Bites",
+        "Course": "Appetizer",
+        "Cuisine": "Indian",
+        "Non-dairy ingredients": {
+            "potato": 4,
+            "onion": 3,
+            "green chilli": 5,
+            "garlic": 5
+        },
+        "dairy ingredients": {},
+        "Prep time": "25 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "Boil and cube potatoes. Saut\u00e9 garlic, onion, and green chilli. Toss the potatoes with the mixture until crisp. Sprinkle with salt and serve hot with chutney.",
+        "servings": 6
+    },
+    {
+        "Name": "Cabbage & Carrot Cutlets",
+        "Course": "Appetizer",
+        "Cuisine": "Indian",
+        "Non-dairy ingredients": {
+            "cabbage": 2,
+            "carrot": 3,
+            "onion": 3,
+            "flour": 2,
+            "garlic": 2
+        },
+        "dairy ingredients": {},
+        "Prep time": "30 minutes",
+        "meat": false,
+        "gluten-free": false,
+        "allergens": [
+            "flour"
+        ],
+        "recipe": "Grate cabbage and carrot. Mix with onion, garlic, flour, and spices. Shape into small patties. Pan-fry until golden brown. Serve with ketchup or chutney.",
+        "servings": 6
+    },
+    {
+        "Name": "Brinjal Chips",
+        "Course": "Appetizer",
+        "Cuisine": "South Indian",
+        "Non-dairy ingredients": {
+            "brinjal": 5,
+            "flour": 5,
+            "garlic": 5,
+            "green chilli": 5
+        },
+        "dairy ingredients": {},
+        "Prep time": "20 minutes",
+        "meat": false,
+        "gluten-free": false,
+        "allergens": [
+            "flour"
+        ],
+        "recipe": "Slice brinjal thinly. Dip in a flour-based batter spiced with garlic and green chilli. Deep fry until crispy. Serve as a crunchy appetizer.",
+        "servings": 4
+    },
+    {
+        "Name": "Mushroom & Capsicum Skewers",
+        "Course": "Appetizer",
+        "Cuisine": "Fusion",
+        "Non-dairy ingredients": {
+            "mushrooms": 4,
+            "capsicum": 2,
+            "onion": 3,
+            "garlic": 3
+        },
+        "dairy ingredients": {},
+        "Prep time": "20 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "Thread mushrooms, capsicum, and onion onto skewers. Brush with garlic-infused oil. Grill or roast until charred. Serve with a spicy dip.",
+        "servings": 6
+    },
+    {
+        "Name": "Stuffed Capsicum Rings",
+        "Course": "Appetizer",
+        "Cuisine": "Indian",
+        "Non-dairy ingredients": {
+            "capsicum": 4,
+            "potato": 3,
+            "onion": 5,
+            "garlic": 5,
+            "carrot": 1
+        },
+        "dairy ingredients": {},
+        "Prep time": "30 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "Cut capsicum into thick rings. Prepare a mashed mixture of potato, carrot, onion, and garlic. Stuff the rings and shallow fry until golden. Serve hot with chutney.",
+        "servings": 3
+    },
+    {
+        "Name": "Aloo Chaat",
+        "Course": "Appetizer",
+        "Cuisine": "Indian",
+        "Non-dairy ingredients": {
+            "potato": 2,
+            "onion": 2,
+            "green chilli": 2,
+            "carrot": 3
+        },
+        "dairy ingredients": {},
+        "Prep time": "20 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "Boil and dice potatoes. Mix with chopped onions, grated carrot, and green chilli. Toss with chaat masala and lemon juice. Serve immediately.",
+        "servings": 6
+    },
+    {
+        "Name": "Gobi Matar Masala",
+        "Course": "Main",
+        "Cuisine": "North Indian",
+        "Non-dairy ingredients": {
+            "cabbage": 2,
+            "onion": 1,
+            "garlic": 5,
+            "green chilli": 3
+        },
+        "dairy ingredients": {},
+        "Prep time": "30 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "Saut\u00e9 garlic, onion, and green chilli. Add chopped cabbage and cook until soft. Add spices and a little water. Simmer until done and serve with rice or roti.",
+        "servings": 6
+    },
+    {
+        "Name": "Egg Bhurji",
+        "Course": "Main",
+        "Cuisine": "Indian",
+        "Non-dairy ingredients": {
+            "onion": 4,
+            "garlic": 3,
+            "green chilli": 1,
+            "eggs": 2
+        },
+        "dairy ingredients": {},
+        "Prep time": "15 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [
+            "eggs"
+        ],
+        "recipe": "Beat eggs and set aside. Saut\u00e9 garlic, onion, and green chilli. Add beaten eggs and scramble until cooked. Season and serve hot with chapati.",
+        "servings": 5
+    },
+    {
+        "Name": "Khatta-Meetha Beetroot Tikki",
+        "Course": "Appetizer",
+        "Cuisine": "Indian",
+        "Non-dairy ingredients": {
+            "beet": 5,
+            "potato": 2,
+            "onion": 2,
+            "flour": 3
+        },
+        "dairy ingredients": {},
+        "Prep time": "25 minutes",
+        "meat": false,
+        "gluten-free": false,
+        "allergens": [
+            "flour"
+        ],
+        "recipe": "Grate beetroot and mix with mashed potatoes, onions, flour, and spices. Shape into tikkis. Shallow fry until crispy. Serve with chutney.",
+        "servings": 6
+    },
+    {
+        "Name": "Baingan Bharta",
+        "Course": "Main",
+        "Cuisine": "North Indian",
+        "Non-dairy ingredients": {
+            "eggplant": 3,
+            "onion": 5,
+            "garlic": 4,
+            "green chilli": 2
+        },
+        "dairy ingredients": {},
+        "Prep time": "35 minutes",
+        "meat": false,
+        "gluten-free": true,
+        "allergens": [],
+        "recipe": "Roast eggplant until soft. Peel and mash. Saut\u00e9 garlic, onion, and green chilli. Mix mashed eggplant, season well, and cook for a few more minutes. Serve hot with roti.",
+        "servings": 4
+    },
+    {
+        "Name": "Mixed Vegetable Pakora",
+        "Cuisine": "Indian",
+        "Non-dairy ingredients": {
+            "onion": 2,
+            "potato": 3,
+            "capsicum": 4,
+            "carrot": 2,
+            "flour": 4
+        },
+        "dairy ingredients": {},
+        "Prep time": "25 minutes",
+        "meat": false,
+        "gluten-free": false,
+        "allergens": [
+            "flour"
+        ],
+        "Course": "Appetizer",
+        "recipe": "Slice vegetables and mix with flour and spices to make a thick batter. Deep fry spoonfuls until golden brown. Serve hot with chutney.",
+        "servings": 3
+    }
+]

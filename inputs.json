@@ -1,0 +1,7 @@
+{"numPpl" : 5,
+ "userCuisine" : "Indian",
+ "userCourse" : "Any",
+ "userAllergens" : "",
+ "Non-dairy ingredients" : {"onion" : 3, "capsicum" : 2, "garlic" : 2, "carrot" : 1, "eggs" : 2},
+ "dairy ingredients" : []
+}
