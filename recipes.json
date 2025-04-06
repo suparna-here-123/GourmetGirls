@@ -152,7 +152,7 @@
     {
         "Name": "Beetroot & Apple Dessert Bowl",
         "Course": "Dessert",
-        "Cuisine": "Indian-Fusion",
+        "Cuisine": "Continental",
         "Non-dairy ingredients": {
             "beet": 4,
             "apple": 5,
@@ -244,7 +244,7 @@
     {
         "Name": "Brinjal Chips",
         "Course": "Appetizer",
-        "Cuisine": "South Indian",
+        "Cuisine": "Indian",
         "Non-dairy ingredients": {
             "brinjal": 5,
             "flour": 5,
@@ -319,7 +319,7 @@
     {
         "Name": "Gobi Matar Masala",
         "Course": "Main",
-        "Cuisine": "North Indian",
+        "Cuisine": "Indian",
         "Non-dairy ingredients": {
             "cabbage": 2,
             "onion": 1,
@@ -377,7 +377,7 @@
     {
         "Name": "Baingan Bharta",
         "Course": "Main",
-        "Cuisine": "North Indian",
+        "Cuisine": "Indian",
         "Non-dairy ingredients": {
             "eggplant": 3,
             "onion": 5,
