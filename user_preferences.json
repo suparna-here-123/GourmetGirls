@@ -1,0 +1,390 @@
+{
+    "suparna@123": {
+        "preferred_cuisines": [
+            "Indian",
+            "Chinese"
+        ],
+        "preferred_tags": [
+            "vegetarian",
+            "quick",
+            "spicy"
+        ],
+        "disliked_tags": [
+            "non-vegetarian"
+        ],
+        "ingredient_bias": {
+            "carrot": 3,
+            "onion": 2,
+            "green chilli": 2,
+            "ginger": 1
+        }
+    },
+    "aditi@456": {
+        "preferred_cuisines": [
+            "Indian",
+            "Chinese"
+        ],
+        "preferred_tags": [
+            "vegetarian",
+            "quick",
+            "spicy"
+        ],
+        "disliked_tags": [
+            "non-vegetarian"
+        ],
+        "ingredient_bias": {
+            "carrot": 3,
+            "onion": 2,
+            "green chilli": 2,
+            "ginger": 1
+        }
+    },
+    "chefMaster": {
+        "preferred_cuisines": [
+            "Indian",
+            "Chinese",
+            "Fusion"
+        ],
+        "preferred_tags": [
+            "vegetarian",
+            "quick",
+            "spicy"
+        ],
+        "disliked_tags": [
+            "non-vegetarian"
+        ],
+        "ingredient_bias": {
+            "carrot": 3,
+            "onion": 2,
+            "green chilli": 2,
+            "ginger": 1
+        }
+    },
+    "gordon@ramsay": {
+        "preferred_cuisines": [
+            "Indian",
+            "Fusion"
+        ],
+        "preferred_tags": [
+            "vegetarian",
+            "quick",
+            "spicy"
+        ],
+        "disliked_tags": [
+            "non-vegetarian"
+        ],
+        "ingredient_bias": {
+            "carrot": 3,
+            "onion": 2,
+            "green chilli": 2,
+            "ginger": 1
+        }
+    },
+
+
+    "tArLaDaLaL": {
+        "preferred_cuisines": [
+            "Continental",
+            "Fusion",
+            "Chinese"
+        ],
+        "preferred_tags": [
+            "spicy",
+            "creative"
+        ],
+        "disliked_tags": [
+            "gluten-free"
+        ],
+        "ingredient_bias": {
+            "garlic": 3,
+            "capsicum": 2,
+            "ginger": 2,
+            "cabbage": 1
+        }
+    },
+    "yumCook123": {
+        "preferred_cuisines": [
+            "Continental",
+            "Fusion",
+            "Chinese"
+        ],
+        "preferred_tags": [
+            "spicy",
+            "creative"
+        ],
+        "disliked_tags": [
+            "gluten-free"
+        ],
+        "ingredient_bias": {
+            "garlic": 3,
+            "capsicum": 2,
+            "ginger": 2,
+            "cabbage": 1
+        }
+    },
+    "food4lyf": {
+        "preferred_cuisines": [
+            "Fusion",
+            "Chinese"
+        ],
+        "preferred_tags": [
+            "spicy",
+            "creative"
+        ],
+        "disliked_tags": [
+            "gluten-free"
+        ],
+        "ingredient_bias": {
+            "garlic": 3,
+            "capsicum": 2,
+            "ginger": 2,
+            "cabbage": 1
+        }
+    },
+    "burpista@89": {
+        "preferred_cuisines": [
+            "Fusion",
+            "Chinese"
+        ],
+        "preferred_tags": [
+            "spicy",
+            "creative"
+        ],
+        "disliked_tags": [
+            "gluten-free"
+        ],
+        "ingredient_bias": {
+            "garlic": 3,
+            "capsicum": 2,
+            "ginger": 2,
+            "cabbage": 1
+        }
+    },
+
+
+    "foodLover123": {
+        "preferred_cuisines": [
+            "Continental",
+            "Asian"
+        ],
+        "preferred_tags": [
+            "non-vegetarian",
+            "gluten-free",
+            "comfort"
+        ],
+        "disliked_tags": [
+            "vegan"
+        ],
+        "ingredient_bias": {
+            "capsicum": 3,
+            "cabbage": 3,
+            "milk": 2,
+            "potato": 1
+        }
+    },
+    "kaapiLover57": {
+        "preferred_cuisines": [
+            "Continental",
+            "Asian"
+        ],
+        "preferred_tags": [
+            "non-vegetarian",
+            "gluten-free",
+            "comfort"
+        ],
+        "disliked_tags": [
+            "vegan"
+        ],
+        "ingredient_bias": {
+            "capsicum": 3,
+            "cabbage": 3,
+            "milk": 2,
+            "potato": 1
+        }
+    },
+    "delishrelish564": {
+        "preferred_cuisines": [
+            "Continental",
+            "Asian",
+            "Fusion"
+        ],
+        "preferred_tags": [
+            "non-vegetarian",
+            "gluten-free",
+            "comfort"
+        ],
+        "disliked_tags": [
+            "vegan"
+        ],
+        "ingredient_bias": {
+            "capsicum": 3,
+            "cabbage": 3,
+            "milk": 2,
+            "potato": 1
+        }
+    },
+    "marcoPierre": {
+        "preferred_cuisines": [
+            "Continental",
+            "Asian",
+            "Chinese"
+        ],
+        "preferred_tags": [
+            "non-vegetarian",
+            "gluten-free",
+            "comfort"
+        ],
+        "disliked_tags": [
+            "vegan"
+        ],
+        "ingredient_bias": {
+            "capsicum": 3,
+            "cabbage": 3,
+            "milk": 2,
+            "potato": 1
+        }
+    },
+    
+    "g0rgeMehigan": {
+        "preferred_cuisines": [
+            "Continental",
+            "Fusion",
+            "Indian"
+        ],
+        "preferred_tags": [
+            "non-vegetarian",
+            "gluten-free",
+            "comfort"
+        ],
+        "disliked_tags": [
+            "vegan"
+        ],
+        "ingredient_bias": {
+            "capsicum": 3,
+            "cabbage": 3,
+            "milk": 2,
+            "potato": 1
+        }
+    },
+    "sanjayKapoor2004": {
+        "preferred_cuisines": [
+            "Fusion",
+            "Continental"
+        ],
+        "preferred_tags": [
+            "gourmet",
+            "creative",
+            "gluten-free"
+        ],
+        "disliked_tags": [
+            "processed"
+        ],
+        "ingredient_bias": {
+            "cabbage": 2,
+            "green chilli": 2,
+            "apple": 1,
+            "eggplant": 2
+        }
+    },
+    "sihikahi34": {
+        "preferred_cuisines": [
+            "Fusion",
+            "Continental"
+        ],
+        "preferred_tags": [
+            "gourmet",
+            "creative",
+            "gluten-free"
+        ],
+        "disliked_tags": [
+            "processed"
+        ],
+        "ingredient_bias": {
+            "cabbage": 2,
+            "green chilli": 2,
+            "apple": 1,
+            "eggplant": 2
+        }
+    },
+    "emptyPlate45": {
+        "preferred_cuisines": [
+            "Fusion",
+            "Continental",
+            "Indian"
+        ],
+        "preferred_tags": [
+            "gourmet",
+            "creative",
+            "gluten-free"
+        ],
+        "disliked_tags": [
+            "processed"
+        ],
+        "ingredient_bias": {
+            "cabbage": 2,
+            "green chilli": 2,
+            "apple": 1,
+            "eggplant": 2
+        }
+    },
+    "I<3Food": {
+        "preferred_cuisines": [
+            "Fusion",
+            "Continental"
+        ],
+        "preferred_tags": [
+            "gourmet",
+            "creative",
+            "gluten-free"
+        ],
+        "disliked_tags": [
+            "processed"
+        ],
+        "ingredient_bias": {
+            "cabbage": 2,
+            "green chilli": 2,
+            "apple": 1,
+            "eggplant": 2
+        }
+    },
+    "gourmetGal": {
+        "preferred_cuisines": [
+            "Fusion",
+            "Continental"
+        ],
+        "preferred_tags": [
+            "gourmet",
+            "creative",
+            "gluten-free"
+        ],
+        "disliked_tags": [
+            "processed"
+        ],
+        "ingredient_bias": {
+            "cabbage": 2,
+            "green chilli": 2,
+            "apple": 1,
+            "eggplant": 2
+        }
+    },
+    "remy&Linguini": {
+        "preferred_cuisines": [
+            "Fusion",
+            "Continental"
+        ],
+        "preferred_tags": [
+            "gourmet",
+            "creative",
+            "gluten-free"
+        ],
+        "disliked_tags": [
+            "processed"
+        ],
+        "ingredient_bias": {
+            "cabbage": 2,
+            "green chilli": 2,
+            "apple": 1,
+            "eggplant": 2
+        }
+    }
+}

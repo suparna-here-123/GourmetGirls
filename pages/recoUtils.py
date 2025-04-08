@@ -9,19 +9,6 @@ import json
 with open("recipes.json") as f:
     recipes = json.load(f)
 
-# Load user inputs
-with open("inputs.json") as f:
-    inputs = json.load(f)
-
-# Extract user input details
-num_ppl = inputs["numPpl"]
-user_cuisine = inputs["userCuisine"]
-user_course = inputs["userCourse"]
-user_allergens = set([a.strip() for a in inputs["userAllergens"].split(",") if a.strip()])
-user_non_dairy = inputs["Non-dairy ingredients"]
-user_dairy = inputs["dairy ingredients"]
-has_dairy = bool(user_dairy)
-
 # Scoring parameters
 dairy_bonus_value = 10
 cuisine_bonus_value = 5
@@ -31,15 +18,19 @@ def getCuisines() :
     return ('Asian', 'Chinese', 'Continental', 'Indian', 'Fusion')
 
 
-def scoreRecipes() :
+def scoreRecipes(numPpl:int, user_cuisine:str, user_course:int, user_allergens:list,
+                 maxPrepTime:int, user_non_dairy:dict, user_dairy:list) :
     scored_recipes = []
 
     for recipe in recipes:
-        
         # --- Allergens Filter ---
         if any(allergen in user_allergens for allergen in recipe.get("allergens", [])):
             continue
         
+        # Prep-time filter
+        if maxPrepTime < int(recipe["Prep time"].split()[0]):
+            continue
+
         # --- Ingredient Match ---
         total_ingredients = len(recipe.get("Non-dairy ingredients", {})) + len(recipe.get("dairy ingredients", {}))
         if total_ingredients == 0:
@@ -62,7 +53,7 @@ def scoreRecipes() :
             continue
 
         # --- Dairy Bonus ---
-        dairy_bonus = dairy_bonus_value if has_dairy and recipe.get("dairy ingredients") else 0
+        dairy_bonus = dairy_bonus_value if user_dairy and recipe.get("dairy ingredients") else 0
 
         # --- Cuisine Bonus ---
         cuisine_bonus = cuisine_bonus_value if user_cuisine == "Any" or recipe.get("Cuisine") == user_cuisine else 0
@@ -85,20 +76,26 @@ def scoreRecipes() :
             "full_recipe": recipe["recipe"]
         })
 
-        return scored_recipes
+    return scored_recipes
 
 # --- Get Top 5 Recipes ---
-def topKRecipes(K) :
-    scoredRecipes = scoreRecipes()
-    top_k_recipes = sorted(scoredRecipes, key=lambda x: x["total_score"], reverse=True)[:K]
+def topKRecipes(K, recipes) :
+    top_k_recipes = sorted(recipes, key=lambda x: x["total_score"], reverse=True)[:K]
     return top_k_recipes
 
 
-
-# --- Present Results ---
-# print("\nTop 5 Recommended Recipes:\n")
-# for i, r in enumerate(top_5_recipes, 1):
-#     print(f"#{i}: {r['recipe']} (Score: {r['total_score']:.2f})")
-#     print(f"   Cuisine: {r['cuisine']}, Course: {r['course']}, Prep Time: {r['prep_time']}, Servings: {r['servings']}")
-#     print(f"   Recipe: {r['full_recipe']}")
-#     print(f"   Ingredient match score: {r['ingredient_match_score']}\n")
+if __name__ == "__main__" :
+    input = json.loads(open('inputs.json').read())
+    sr = scoreRecipes(input['numPpl'], input['userCuisine'], input['userCourse'],
+                       input['userAllergens'], input['maxPrepTime'], input['Non-dairy ingredients'],
+                       input['dairy ingredients'])
+    
+    topK = topKRecipes(5, sr)
+    
+    # --- Present Results ---
+    print("\nTop 5 Recommended Recipes:\n")
+    for i, r in enumerate(topK, 1):
+        print(f"#{i}: {r['recipe']} (Score: {r['total_score']:.2f})")
+        print(f"   Cuisine: {r['cuisine']}, Course: {r['course']}, Prep Time: {r['prep_time']}, Servings: {r['servings']}")
+        print(f"   Recipe: {r['full_recipe']}")
+        print(f"   Ingredient match score: {r['ingredient_match_score']}\n")

@@ -1,7 +1,8 @@
 {"numPpl" : 5,
  "userCuisine" : "Indian",
- "userCourse" : "Any",
- "userAllergens" : "",
- "Non-dairy ingredients" : {"onion" : 3, "capsicum" : 2, "garlic" : 2, "carrot" : 1, "eggs" : 2},
+ "userCourse" : "Appetizer",
+ "userAllergens" : [],
+ "maxPrepTime" : 30,
+ "Non-dairy ingredients" : {"onion" : 3, "capsicum" : 3},
  "dairy ingredients" : []
 }

@@ -22,3 +22,6 @@ We aim to build a smart recipe assistant that can:
 
 ## To-do
    * Add dairy recipes
+
+## Notes
+Rule-based recommendation engine doesn't FILTER recipes, it suggests recipes close to your preference, with ingredients that you have.
