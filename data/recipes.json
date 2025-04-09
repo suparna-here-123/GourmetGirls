@@ -1,968 +1,926 @@
-[
-   {
-      "Name": "Garlic Mushroom Stir-Fry",
-      "Cuisine": "Asian",
-      "Course": "Main",
-      "Non-dairy ingredients": {
-         "garlic": 2,
-         "onion": 1,
-         "carrot": 1,
-         "mushrooms": 5,
-         "ginger": 1,
-         "green chilli": 1
+{
+      "R_0": {
+         "Name": "Garlic Mushroom Stir-Fry",
+         "Cuisine": "Asian",
+         "Course": "Main",
+         "Non-dairy ingredients": {
+            "garlic": 2,
+            "onion": 1,
+            "carrot": 1,
+            "mushrooms": 5,
+            "ginger": 1,
+            "green chilli": 1
+         },
+         "dairy ingredients": {},
+         "Prep time": "20 minutes",
+         "tags": [
+            "vegetarian",
+            "vegan",
+            "quick"
+         ],
+         "allergens": [],
+         "recipe": "Heat oil in a pan and saut\u00e9 garlic, onion, and ginger until fragrant. Add carrots, mushrooms, and green chilli. Stir-fry on medium heat for 5-7 minutes. Season with salt and pepper. Serve hot.",
+         "servings": 3,
+         "source": "General"
       },
-      "dairy ingredients": {},
-      "Prep time": "20 minutes",
-      "tags": [
-         "vegetarian",
-         "vegan",
-         "quick"
-      ],
-      "allergens": [],
-      "recipe": "Heat oil in a pan and saut\u00e9 garlic, onion, and ginger until fragrant. Add carrots, mushrooms, and green chilli. Stir-fry on medium heat for 5-7 minutes. Season with salt and pepper. Serve hot.",
-      "servings": 3,
-      "RecipeID": "R_0",
-      "source": "General"
-   },
-   {
-      "Name": "Chicken & Vegetable Stew",
-      "Cuisine": "Continental",
-      "Course": "Main",
-      "Non-dairy ingredients": {
-         "carrot": 2,
-         "potato": 2,
-         "onion": 1,
-         "garlic": 4,
-         "chicken": 3
+      "R_1": {
+         "Name": "Chicken & Vegetable Stew",
+         "Cuisine": "Continental",
+         "Course": "Main",
+         "Non-dairy ingredients": {
+            "carrot": 2,
+            "potato": 2,
+            "onion": 1,
+            "garlic": 4,
+            "chicken": 3
+         },
+         "dairy ingredients": {},
+         "Prep time": "35 minutes",
+         "tags": [
+            "non-vegetarian",
+            "spicy"
+         ],
+         "allergens": [],
+         "recipe": "In a pot, saut\u00e9 garlic and onion until soft. Add diced potatoes and carrots. Pour water or broth and bring to a boil. Add chicken pieces and cook until tender. Adjust seasoning and serve warm.",
+         "servings": 4,
+         "source": "tArLaDaLaL"
       },
-      "dairy ingredients": {},
-      "Prep time": "35 minutes",
-      "tags": [
-         "non-vegetarian",
-         "spicy"
-      ],
-      "allergens": [],
-      "recipe": "In a pot, saut\u00e9 garlic and onion until soft. Add diced potatoes and carrots. Pour water or broth and bring to a boil. Add chicken pieces and cook until tender. Adjust seasoning and serve warm.",
-      "servings": 4,
-      "RecipeID": "R_1",
-      "source": "tArLaDaLaL"
-   },
-   {
-      "Name": "Vegetable & Egg Stir-Fry",
-      "Cuisine": "Chinese",
-      "Course": "Main",
-      "Non-dairy ingredients": {
-         "capsicum": 5,
-         "onion": 3,
-         "garlic": 4,
-         "eggs": 2,
-         "carrot": 3
+      "R_2": {
+         "Name": "Vegetable & Egg Stir-Fry",
+         "Cuisine": "Chinese",
+         "Course": "Main",
+         "Non-dairy ingredients": {
+            "capsicum": 5,
+            "onion": 3,
+            "garlic": 4,
+            "eggs": 2,
+            "carrot": 3
+         },
+         "dairy ingredients": {},
+         "Prep time": "15 minutes",
+         "tags": [
+            "vegetarian",
+            "quick"
+         ],
+         "allergens": [
+            "eggs"
+         ],
+         "recipe": "Beat the eggs and set aside. Stir-fry garlic, onion, capsicum, and carrot until semi-soft. Add beaten eggs and scramble. Season with salt and pepper. Serve hot with rice or on its own.",
+         "servings": 6,
+         "source": "foodLover123"
       },
-      "dairy ingredients": {},
-      "Prep time": "15 minutes",
-      "tags": [
-         "vegetarian",
-         "quick"
-      ],
-      "allergens": [
-         "eggs"
-      ],
-      "recipe": "Beat the eggs and set aside. Stir-fry garlic, onion, capsicum, and carrot until semi-soft. Add beaten eggs and scramble. Season with salt and pepper. Serve hot with rice or on its own.",
-      "servings": 6,
-      "RecipeID": "R_2",
-      "source": "foodLover123"
-   },
-   {
-      "Name": "Spicy Cabbage & Potato Stir-Fry",
-      "Cuisine": "Indian",
-      "Course": "Main",
-      "Non-dairy ingredients": {
-         "cabbage": 2,
-         "potato": 5,
-         "onion": 2,
-         "garlic": 3,
-         "green chilli": 2
+      "R_3": {
+         "Name": "Spicy Cabbage & Potato Stir-Fry",
+         "Cuisine": "Indian",
+         "Course": "Main",
+         "Non-dairy ingredients": {
+            "cabbage": 2,
+            "potato": 5,
+            "onion": 2,
+            "garlic": 3,
+            "green chilli": 2
+         },
+         "dairy ingredients": {},
+         "Prep time": "25 minutes",
+         "tags": [
+            "vegetarian",
+            "quick"
+         ],
+         "allergens": [],
+         "recipe": "Heat oil in a pan. Fry garlic and onion until golden. Add potatoes and cook until soft. Add cabbage and green chilli, stir well. Cook for 5 more minutes, season, and serve with flatbread or rice.",
+         "servings": 3,
+         "source": "General"
       },
-      "dairy ingredients": {},
-      "Prep time": "25 minutes",
-      "tags": [
-         "vegetarian",
-         "quick"
-      ],
-      "allergens": [],
-      "recipe": "Heat oil in a pan. Fry garlic and onion until golden. Add potatoes and cook until soft. Add cabbage and green chilli, stir well. Cook for 5 more minutes, season, and serve with flatbread or rice.",
-      "servings": 3,
-      "RecipeID": "R_3",
-      "source": "General"
-   },
-   {
-      "Name": "Chocolate Banana Delight",
-      "Cuisine": "Fusion",
-      "Course": "Dessert",
-      "Non-dairy ingredients": {
-         "banana": 1,
-         "chocolate": 4,
-         "sugar": 4
+      "R_4": {
+         "Name": "Chocolate Banana Delight",
+         "Cuisine": "Fusion",
+         "Course": "Dessert",
+         "Non-dairy ingredients": {
+            "banana": 1,
+            "chocolate": 4,
+            "sugar": 4
+         },
+         "dairy ingredients": {},
+         "Prep time": "10 minutes",
+         "tags": [
+            "vegetarian",
+            "quick"
+         ],
+         "allergens": [],
+         "recipe": "Melt chocolate in a bowl. Slice bananas and dip them into the melted chocolate. Sprinkle sugar on top if desired. Chill for 10 minutes before serving.",
+         "servings": 3,
+         "source": "tArLaDaLaL"
       },
-      "dairy ingredients": {},
-      "Prep time": "10 minutes",
-      "tags": [
-         "vegetarian",
-         "quick"
-      ],
-      "allergens": [],
-      "recipe": "Melt chocolate in a bowl. Slice bananas and dip them into the melted chocolate. Sprinkle sugar on top if desired. Chill for 10 minutes before serving.",
-      "servings": 3,
-      "RecipeID": "R_4",
-      "source": "tArLaDaLaL"
-   },
-   {
-      "Name": "Classic Egg Curry",
-      "Course": "Main",
-      "Cuisine": "Indian",
-      "Non-dairy ingredients": {
-         "onion": 2,
-         "garlic": 2,
-         "ginger": 2,
-         "green chilli": 2,
-         "potato": 4,
-         "eggs": 1
+      "R_5": {
+         "Name": "Classic Egg Curry",
+         "Course": "Main",
+         "Cuisine": "Indian",
+         "Non-dairy ingredients": {
+            "onion": 2,
+            "garlic": 2,
+            "ginger": 2,
+            "green chilli": 2,
+            "potato": 4,
+            "eggs": 1
+         },
+         "dairy ingredients": {},
+         "Prep time": "30 minutes",
+         "tags": [
+            "non-vegetarian",
+            "spicy"
+         ],
+         "allergens": [
+            "eggs"
+         ],
+         "recipe": "Boil eggs and potatoes. In a pan, saut\u00e9 garlic, ginger, and onion. Add green chilli and spices. Add boiled potatoes and eggs. Simmer for 10 minutes. Serve hot with rice or flatbread.",
+         "servings": 6,
+         "source": "foodLover123"
       },
-      "dairy ingredients": {},
-      "Prep time": "30 minutes",
-      "tags": [
-         "non-vegetarian",
-         "spicy"
-      ],
-      "allergens": [
-         "eggs"
-      ],
-      "recipe": "Boil eggs and potatoes. In a pan, saut\u00e9 garlic, ginger, and onion. Add green chilli and spices. Add boiled potatoes and eggs. Simmer for 10 minutes. Serve hot with rice or flatbread.",
-      "servings": 6,
-      "RecipeID": "R_5",
-      "source": "foodLover123"
-   },
-   {
-      "Name": "Apple & Blueberry Fruit Salad",
-      "Course": "Dessert",
-      "Cuisine": "Continental",
-      "Non-dairy ingredients": {
-         "apple": 5,
-         "blueberries": 3
+      "R_6": {
+         "Name": "Apple & Blueberry Fruit Salad",
+         "Course": "Dessert",
+         "Cuisine": "Continental",
+         "Non-dairy ingredients": {
+            "apple": 5,
+            "blueberries": 3
+         },
+         "dairy ingredients": {},
+         "Prep time": "5 minutes",
+         "tags": [
+            "vegetarian",
+            "quick"
+         ],
+         "recipe": "Chop apples into bite-sized pieces. Mix gently with fresh blueberries. Optionally sprinkle with sugar or a pinch of salt. Serve chilled.",
+         "servings": 6,
+         "source": "tArLaDaLaL"
       },
-      "dairy ingredients": {},
-      "Prep time": "5 minutes",
-      "tags": [
-         "vegetarian",
-         "quick"
-      ],
-      "recipe": "Chop apples into bite-sized pieces. Mix gently with fresh blueberries. Optionally sprinkle with sugar or a pinch of salt. Serve chilled.",
-      "servings": 6,
-      "RecipeID": "R_6",
-      "source": "tArLaDaLaL"
-   },
-   {
-      "Name": "Carrot Halwa",
-      "Course": "Dessert",
-      "Cuisine": "Indian",
-      "Non-dairy ingredients": {
-         "carrot": 4,
-         "sugar": 3
+      "R_7": {
+         "Name": "Carrot Halwa",
+         "Course": "Dessert",
+         "Cuisine": "Indian",
+         "Non-dairy ingredients": {
+            "carrot": 4,
+            "sugar": 3
+         },
+         "dairy ingredients": {},
+         "Prep time": "40 minutes",
+         "tags": [
+            "vegetarian",
+            "vegan",
+            "quick"
+         ],
+         "allergens": [],
+         "recipe": "Grate carrots and cook in a pan. Add sugar and stir continuously. Let it cook on low heat until soft and slightly caramelized. Serve warm or cold.",
+         "servings": 3,
+         "source": "I<3Food"
       },
-      "dairy ingredients": {},
-      "Prep time": "40 minutes",
-      "tags": [
-         "vegetarian",
-         "vegan",
-         "quick"
-      ],
-      "allergens": [],
-      "recipe": "Grate carrots and cook in a pan. Add sugar and stir continuously. Let it cook on low heat until soft and slightly caramelized. Serve warm or cold.",
-      "servings": 3,
-      "RecipeID": "R_7",
-      "source": "I<3Food"
-   },
-   {
-      "Name": "Beetroot & Apple Dessert Bowl",
-      "Course": "Dessert",
-      "Cuisine": "Continental",
-      "Non-dairy ingredients": {
-         "beet": 4,
-         "apple": 5,
-         "sugar": 1
+      "R_8": {
+         "Name": "Beetroot & Apple Dessert Bowl",
+         "Course": "Dessert",
+         "Cuisine": "Continental",
+         "Non-dairy ingredients": {
+            "beet": 4,
+            "apple": 5,
+            "sugar": 1
+         },
+         "dairy ingredients": {},
+         "Prep time": "20 minutes",
+         "tags": [
+            "comfort",
+            "vegan",
+            "vegetarian"
+         ],
+         "allergens": [],
+         "recipe": "Boil beetroot until soft, then dice it. Chop apples. Mix both in a bowl with sugar. Chill for 10 minutes and serve as a refreshing dessert.",
+         "servings": 5,
+         "source": "suparna@123"
       },
-      "dairy ingredients": {},
-      "Prep time": "20 minutes",
-      "tags": [
-         "comfort",
-         "vegan",
-         "vegetarian"
-      ],
-      "allergens": [],
-      "recipe": "Boil beetroot until soft, then dice it. Chop apples. Mix both in a bowl with sugar. Chill for 10 minutes and serve as a refreshing dessert.",
-      "servings": 5,
-      "RecipeID": "R_8",
-      "source": "suparna@123"
-   },
-   {
-      "Name": "Potato & Brinjal Masala Curry",
-      "Course": "Main",
-      "Cuisine": "Indian",
-      "Non-dairy ingredients": {
-         "potato": 4,
-         "brinjal": 2,
-         "onion": 4,
-         "garlic": 3,
-         "ginger": 2,
-         "green chilli": 5
+      "R_9": {
+         "Name": "Potato & Brinjal Masala Curry",
+         "Course": "Main",
+         "Cuisine": "Indian",
+         "Non-dairy ingredients": {
+            "potato": 4,
+            "brinjal": 2,
+            "onion": 4,
+            "garlic": 3,
+            "ginger": 2,
+            "green chilli": 5
+         },
+         "dairy ingredients": {},
+         "Prep time": "35 minutes",
+         "tags": [
+            "vegetarian",
+            "spicy"
+         ],
+         "allergens": [],
+         "recipe": "Saut\u00e9 garlic, onion, and ginger in oil. Add diced potatoes and brinjal. Cook with spices and green chilli until soft. Add water to make gravy. Simmer and serve with rice or roti.",
+         "servings": 3,
+         "source": "tArLaDaLaL"
       },
-      "dairy ingredients": {},
-      "Prep time": "35 minutes",
-      "tags": [
-         "vegetarian",
-         "spicy"
-      ],
-      "allergens": [],
-      "recipe": "Saut\u00e9 garlic, onion, and ginger in oil. Add diced potatoes and brinjal. Cook with spices and green chilli until soft. Add water to make gravy. Simmer and serve with rice or roti.",
-      "servings": 3,
-      "RecipeID": "R_9",
-      "source": "tArLaDaLaL"
-   },
-   {
-      "Name": "Carrot Ladoo",
-      "Course": "Dessert",
-      "Cuisine": "Indian",
-      "Non-dairy ingredients": {
-         "carrot": 3,
-         "sugar": 5
+      "R_10": {
+         "Name": "Carrot Ladoo",
+         "Course": "Dessert",
+         "Cuisine": "Indian",
+         "Non-dairy ingredients": {
+            "carrot": 3,
+            "sugar": 5
+         },
+         "dairy ingredients": {},
+         "Prep time": "30 minutes",
+         "tags": [
+            "vegetarian",
+            "creative"
+         ],
+         "allergens": [],
+         "recipe": "Grate carrots and cook them in a pan with sugar on low heat. Keep stirring until moisture evaporates. Shape into small ladoos while warm. Cool and serve.",
+         "servings": 6,
+         "source": "suparna@123"
       },
-      "dairy ingredients": {},
-      "Prep time": "30 minutes",
-      "tags": [
-         "vegetarian",
-         "creative"
-      ],
-      "allergens": [],
-      "recipe": "Grate carrots and cook them in a pan with sugar on low heat. Keep stirring until moisture evaporates. Shape into small ladoos while warm. Cool and serve.",
-      "servings": 6,
-      "RecipeID": "R_10",
-      "source": "suparna@123"
-   },
-   {
-      "Name": "Spicy Potato Bites",
-      "Course": "Appetizer",
-      "Cuisine": "Indian",
-      "Non-dairy ingredients": {
-         "potato": 4,
-         "onion": 3,
-         "green chilli": 5,
-         "garlic": 5
+      "R_11": {
+         "Name": "Spicy Potato Bites",
+         "Course": "Appetizer",
+         "Cuisine": "Indian",
+         "Non-dairy ingredients": {
+            "potato": 4,
+            "onion": 3,
+            "green chilli": 5,
+            "garlic": 5
+         },
+         "dairy ingredients": {},
+         "Prep time": "25 minutes",
+         "tags": [
+            "vegetarian",
+            "quick"
+         ],
+         "allergens": [],
+         "recipe": "Boil and cube potatoes. Saut\u00e9 garlic, onion, and green chilli. Toss the potatoes with the mixture until crisp. Sprinkle with salt and serve hot with chutney.",
+         "servings": 6,
+         "source": "g0rgeMehigan"
       },
-      "dairy ingredients": {},
-      "Prep time": "25 minutes",
-      "tags": [
-         "vegetarian",
-         "quick"
-      ],
-      "allergens": [],
-      "recipe": "Boil and cube potatoes. Saut\u00e9 garlic, onion, and green chilli. Toss the potatoes with the mixture until crisp. Sprinkle with salt and serve hot with chutney.",
-      "servings": 6,
-      "RecipeID": "R_11",
-      "source": "g0rgeMehigan"
-   },
-   {
-      "Name": "Cabbage & Carrot Cutlets",
-      "Course": "Appetizer",
-      "Cuisine": "Indian",
-      "Non-dairy ingredients": {
-         "cabbage": 2,
-         "carrot": 3,
-         "onion": 3,
-         "flour": 2,
-         "garlic": 2
+      "R_12": {
+         "Name": "Cabbage & Carrot Cutlets",
+         "Course": "Appetizer",
+         "Cuisine": "Indian",
+         "Non-dairy ingredients": {
+            "cabbage": 2,
+            "carrot": 3,
+            "onion": 3,
+            "flour": 2,
+            "garlic": 2
+         },
+         "dairy ingredients": {},
+         "Prep time": "30 minutes",
+         "allergens": [
+            "flour"
+         ],
+         "recipe": "Grate cabbage and carrot. Mix with onion, garlic, flour, and spices. Shape into small patties. Pan-fry until golden brown. Serve with ketchup or chutney.",
+         "servings": 6,
+         "tags": [
+            "vegetarian"
+         ],
+         "source": "g0rgeMehigan"
       },
-      "dairy ingredients": {},
-      "Prep time": "30 minutes",
-      "allergens": [
-         "flour"
-      ],
-      "recipe": "Grate cabbage and carrot. Mix with onion, garlic, flour, and spices. Shape into small patties. Pan-fry until golden brown. Serve with ketchup or chutney.",
-      "servings": 6,
-      "tags": [
-         "vegetarian"
-      ],
-      "RecipeID": "R_12",
-      "source": "g0rgeMehigan"
-   },
-   {
-      "Name": "Brinjal Chips",
-      "Course": "Appetizer",
-      "Cuisine": "Indian",
-      "Non-dairy ingredients": {
-         "brinjal": 5,
-         "flour": 5,
-         "garlic": 5,
-         "green chilli": 5
+      "R_13": {
+         "Name": "Brinjal Chips",
+         "Course": "Appetizer",
+         "Cuisine": "Indian",
+         "Non-dairy ingredients": {
+            "brinjal": 5,
+            "flour": 5,
+            "garlic": 5,
+            "green chilli": 5
+         },
+         "dairy ingredients": {},
+         "Prep time": "20 minutes",
+         "allergens": [
+            "flour"
+         ],
+         "recipe": "Slice brinjal thinly. Dip in a flour-based batter spiced with garlic and green chilli. Deep fry until crispy. Serve as a crunchy appetizer.",
+         "servings": 4,
+         "tags": [
+            "vegetarian",
+            "gourmet"
+         ],
+         "source": "tArLaDaLaL"
       },
-      "dairy ingredients": {},
-      "Prep time": "20 minutes",
-      "allergens": [
-         "flour"
-      ],
-      "recipe": "Slice brinjal thinly. Dip in a flour-based batter spiced with garlic and green chilli. Deep fry until crispy. Serve as a crunchy appetizer.",
-      "servings": 4,
-      "tags": [
-         "vegetarian",
-         "gourmet"
-      ],
-      "RecipeID": "R_13",
-      "source": "tArLaDaLaL"
-   },
-   {
-      "Name": "Mushroom & Capsicum Skewers",
-      "Course": "Appetizer",
-      "Cuisine": "Fusion",
-      "Non-dairy ingredients": {
-         "mushrooms": 4,
-         "capsicum": 2,
-         "onion": 3,
-         "garlic": 3
+      "R_14": {
+         "Name": "Mushroom & Capsicum Skewers",
+         "Course": "Appetizer",
+         "Cuisine": "Fusion",
+         "Non-dairy ingredients": {
+            "mushrooms": 4,
+            "capsicum": 2,
+            "onion": 3,
+            "garlic": 3
+         },
+         "dairy ingredients": {},
+         "Prep time": "20 minutes",
+         "allergens": [],
+         "recipe": "Thread mushrooms, capsicum, and onion onto skewers. Brush with garlic-infused oil. Grill or roast until charred. Serve with a spicy dip.",
+         "servings": 6,
+         "tags": [
+            "vegetarian",
+            "gluten-free"
+         ],
+         "source": "foodLover123"
       },
-      "dairy ingredients": {},
-      "Prep time": "20 minutes",
-      "allergens": [],
-      "recipe": "Thread mushrooms, capsicum, and onion onto skewers. Brush with garlic-infused oil. Grill or roast until charred. Serve with a spicy dip.",
-      "servings": 6,
-      "tags": [
-         "vegetarian",
-         "gluten-free"
-      ],
-      "RecipeID": "R_14",
-      "source": "foodLover123"
-   },
-   {
-      "Name": "Stuffed Capsicum Rings",
-      "Course": "Appetizer",
-      "Cuisine": "Indian",
-      "Non-dairy ingredients": {
-         "capsicum": 4,
-         "potato": 3,
-         "onion": 5,
-         "garlic": 5,
-         "carrot": 1
+      "R_15": {
+         "Name": "Stuffed Capsicum Rings",
+         "Course": "Appetizer",
+         "Cuisine": "Indian",
+         "Non-dairy ingredients": {
+            "capsicum": 4,
+            "potato": 3,
+            "onion": 5,
+            "garlic": 5,
+            "carrot": 1
+         },
+         "dairy ingredients": {},
+         "Prep time": "30 minutes",
+         "allergens": [],
+         "recipe": "Cut capsicum into thick rings. Prepare a mashed mixture of potato, carrot, onion, and garlic. Stuff the rings and shallow fry until golden. Serve hot with chutney.",
+         "servings": 3,
+         "tags": [
+            "vegetarian",
+            "gluten-free"
+         ],
+         "source": "General"
       },
-      "dairy ingredients": {},
-      "Prep time": "30 minutes",
-      "allergens": [],
-      "recipe": "Cut capsicum into thick rings. Prepare a mashed mixture of potato, carrot, onion, and garlic. Stuff the rings and shallow fry until golden. Serve hot with chutney.",
-      "servings": 3,
-      "tags": [
-         "vegetarian",
-         "gluten-free"
-      ],
-      "RecipeID": "R_15",
-      "source": "General"
-   },
-   {
-      "Name": "Aloo Chaat",
-      "Course": "Appetizer",
-      "Cuisine": "Indian",
-      "Non-dairy ingredients": {
-         "potato": 2,
-         "onion": 2,
-         "green chilli": 2,
-         "carrot": 3
+      "R_16": {
+         "Name": "Aloo Chaat",
+         "Course": "Appetizer",
+         "Cuisine": "Indian",
+         "Non-dairy ingredients": {
+            "potato": 2,
+            "onion": 2,
+            "green chilli": 2,
+            "carrot": 3
+         },
+         "dairy ingredients": {},
+         "Prep time": "20 minutes",
+         "allergens": [],
+         "recipe": "Boil and dice potatoes. Mix with chopped onions, grated carrot, and green chilli. Toss with chaat masala and lemon juice. Serve immediately.",
+         "servings": 6,
+         "tags": [
+            "vegetarian",
+            "gluten-free"
+         ],
+         "source": "I<3Food"
       },
-      "dairy ingredients": {},
-      "Prep time": "20 minutes",
-      "allergens": [],
-      "recipe": "Boil and dice potatoes. Mix with chopped onions, grated carrot, and green chilli. Toss with chaat masala and lemon juice. Serve immediately.",
-      "servings": 6,
-      "tags": [
-         "vegetarian",
-         "gluten-free"
-      ],
-      "RecipeID": "R_16",
-      "source": "I<3Food"
-   },
-   {
-      "Name": "Gobi Matar Masala",
-      "Course": "Main",
-      "Cuisine": "Indian",
-      "Non-dairy ingredients": {
-         "cabbage": 2,
-         "onion": 1,
-         "garlic": 5,
-         "green chilli": 3
+      "R_17": {
+         "Name": "Gobi Matar Masala",
+         "Course": "Main",
+         "Cuisine": "Indian",
+         "Non-dairy ingredients": {
+            "cabbage": 2,
+            "onion": 1,
+            "garlic": 5,
+            "green chilli": 3
+         },
+         "dairy ingredients": {},
+         "Prep time": "30 minutes",
+         "allergens": [],
+         "recipe": "Saut\u00e9 garlic, onion, and green chilli. Add chopped cabbage and cook until soft. Add spices and a little water. Simmer until done and serve with rice or roti.",
+         "servings": 6,
+         "tags": [
+            "vegetarian",
+            "gluten-free"
+         ],
+         "source": "General"
       },
-      "dairy ingredients": {},
-      "Prep time": "30 minutes",
-      "allergens": [],
-      "recipe": "Saut\u00e9 garlic, onion, and green chilli. Add chopped cabbage and cook until soft. Add spices and a little water. Simmer until done and serve with rice or roti.",
-      "servings": 6,
-      "tags": [
-         "vegetarian",
-         "gluten-free"
-      ],
-      "RecipeID": "R_17",
-      "source": "General"
-   },
-   {
-      "Name": "Egg Bhurji",
-      "Course": "Main",
-      "Cuisine": "Indian",
-      "Non-dairy ingredients": {
-         "onion": 4,
-         "garlic": 3,
-         "green chilli": 1,
-         "eggs": 2
+      "R_18": {
+         "Name": "Egg Bhurji",
+         "Course": "Main",
+         "Cuisine": "Indian",
+         "Non-dairy ingredients": {
+            "onion": 4,
+            "garlic": 3,
+            "green chilli": 1,
+            "eggs": 2
+         },
+         "dairy ingredients": {},
+         "Prep time": "15 minutes",
+         "allergens": [
+            "eggs"
+         ],
+         "recipe": "Beat eggs and set aside. Saut\u00e9 garlic, onion, and green chilli. Add beaten eggs and scramble until cooked. Season and serve hot with chapati.",
+         "servings": 5,
+         "tags": [
+            "vegetarian",
+            "gluten-free"
+         ],
+         "source": "I<3Food"
       },
-      "dairy ingredients": {},
-      "Prep time": "15 minutes",
-      "allergens": [
-         "eggs"
-      ],
-      "recipe": "Beat eggs and set aside. Saut\u00e9 garlic, onion, and green chilli. Add beaten eggs and scramble until cooked. Season and serve hot with chapati.",
-      "servings": 5,
-      "tags": [
-         "vegetarian",
-         "gluten-free"
-      ],
-      "RecipeID": "R_18",
-      "source": "I<3Food"
-   },
-   {
-      "Name": "Khatta-Meetha Beetroot Tikki",
-      "Course": "Appetizer",
-      "Cuisine": "Indian",
-      "Non-dairy ingredients": {
-         "beet": 5,
-         "potato": 2,
-         "onion": 2,
-         "flour": 3
+      "R_19": {
+         "Name": "Khatta-Meetha Beetroot Tikki",
+         "Course": "Appetizer",
+         "Cuisine": "Indian",
+         "Non-dairy ingredients": {
+            "beet": 5,
+            "potato": 2,
+            "onion": 2,
+            "flour": 3
+         },
+         "dairy ingredients": {},
+         "Prep time": "25 minutes",
+         "allergens": [
+            "flour"
+         ],
+         "recipe": "Grate beetroot and mix with mashed potatoes, onions, flour, and spices. Shape into tikkis. Shallow fry until crispy. Serve with chutney.",
+         "servings": 6,
+         "tags": [
+            "vegetarian",
+            "gourmet"
+         ],
+         "source": "g0rgeMehigan"
       },
-      "dairy ingredients": {},
-      "Prep time": "25 minutes",
-      "allergens": [
-         "flour"
-      ],
-      "recipe": "Grate beetroot and mix with mashed potatoes, onions, flour, and spices. Shape into tikkis. Shallow fry until crispy. Serve with chutney.",
-      "servings": 6,
-      "tags": [
-         "vegetarian",
-         "gourmet"
-      ],
-      "RecipeID": "R_19",
-      "source": "g0rgeMehigan"
-   },
-   {
-      "Name": "Baingan Bharta",
-      "Course": "Main",
-      "Cuisine": "Indian",
-      "Non-dairy ingredients": {
-         "eggplant": 3,
-         "onion": 5,
-         "garlic": 4,
-         "green chilli": 2
+      "R_20": {
+         "Name": "Baingan Bharta",
+         "Course": "Main",
+         "Cuisine": "Indian",
+         "Non-dairy ingredients": {
+            "eggplant": 3,
+            "onion": 5,
+            "garlic": 4,
+            "green chilli": 2
+         },
+         "dairy ingredients": {},
+         "Prep time": "35 minutes",
+         "allergens": [],
+         "recipe": "Roast eggplant until soft. Peel and mash. Saut\u00e9 garlic, onion, and green chilli. Mix mashed eggplant, season well, and cook for a few more minutes. Serve hot with roti.",
+         "servings": 4,
+         "tags": [
+            "vegetarian",
+            "gluten-free"
+         ],
+         "source": "g0rgeMehigan"
       },
-      "dairy ingredients": {},
-      "Prep time": "35 minutes",
-      "allergens": [],
-      "recipe": "Roast eggplant until soft. Peel and mash. Saut\u00e9 garlic, onion, and green chilli. Mix mashed eggplant, season well, and cook for a few more minutes. Serve hot with roti.",
-      "servings": 4,
-      "tags": [
-         "vegetarian",
-         "gluten-free"
-      ],
-      "RecipeID": "R_20",
-      "source": "g0rgeMehigan"
-   },
-   {
-      "Name": "Mixed Vegetable Pakora",
-      "Cuisine": "Indian",
-      "Non-dairy ingredients": {
-         "onion": 2,
-         "potato": 3,
-         "capsicum": 4,
-         "carrot": 2,
-         "flour": 4
+      "R_21": {
+         "Name": "Mixed Vegetable Pakora",
+         "Cuisine": "Indian",
+         "Non-dairy ingredients": {
+            "onion": 2,
+            "potato": 3,
+            "capsicum": 4,
+            "carrot": 2,
+            "flour": 4
+         },
+         "dairy ingredients": {},
+         "Prep time": "25 minutes",
+         "allergens": [
+            "flour"
+         ],
+         "Course": "Appetizer",
+         "recipe": "Slice vegetables and mix with flour and spices to make a thick batter. Deep fry spoonfuls until golden brown. Serve hot with chutney.",
+         "servings": 3,
+         "tags": [
+            "vegetarian"
+         ],
+         "source": "tArLaDaLaL"
       },
-      "dairy ingredients": {},
-      "Prep time": "25 minutes",
-      "allergens": [
-         "flour"
-      ],
-      "Course": "Appetizer",
-      "recipe": "Slice vegetables and mix with flour and spices to make a thick batter. Deep fry spoonfuls until golden brown. Serve hot with chutney.",
-      "servings": 3,
-      "tags": [
-         "vegetarian"
-      ],
-      "RecipeID": "R_21",
-      "source": "tArLaDaLaL"
-   },
-   {
-      "Name": "Creamy Garlic Brinjal",
-      "Cuisine": "Indian",
-      "Course": "Appetizer",
-      "Non-dairy ingredients": {
-         "carrot": 1,
-         "potato": 5
+      "R_22": {
+         "Name": "Creamy Garlic Brinjal",
+         "Cuisine": "Indian",
+         "Course": "Appetizer",
+         "Non-dairy ingredients": {
+            "carrot": 1,
+            "potato": 5
+         },
+         "dairy ingredients": {},
+         "Prep time": "42 minutes",
+         "allergens": [],
+         "recipe": "Follow easy steps to make creamy garlic brinjal using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 3,
+         "tags": [
+            "non-vegetarian",
+            "gourmet"
+         ],
+         "source": "g0rgeMehigan"
       },
-      "dairy ingredients": {},
-      "Prep time": "42 minutes",
-      "allergens": [],
-      "recipe": "Follow easy steps to make creamy garlic brinjal using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 3,
-      "tags": [
-         "non-vegetarian",
-         "gourmet"
-      ],
-      "RecipeID": "R_22",
-      "source": "g0rgeMehigan"
-   },
-   {
-      "Name": "Stir-fry Veg Medley",
-      "Cuisine": "Continental",
-      "Course": "Appetizer",
-      "Non-dairy ingredients": {
-         "ginger": 5,
-         "onion": 5,
-         "garlic": 1
+      "R_23": {
+         "Name": "Stir-fry Veg Medley",
+         "Cuisine": "Continental",
+         "Course": "Appetizer",
+         "Non-dairy ingredients": {
+            "ginger": 5,
+            "onion": 5,
+            "garlic": 1
+         },
+         "dairy ingredients": {},
+         "Prep time": "24 minutes",
+         "allergens": [
+            "eggs"
+         ],
+         "recipe": "Follow easy steps to make stir-fry veg medley using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 3,
+         "tags": [
+            "vegetarian",
+            "gluten-free"
+         ],
+         "source": "foodLover123"
       },
-      "dairy ingredients": {},
-      "Prep time": "24 minutes",
-      "allergens": [
-         "eggs"
-      ],
-      "recipe": "Follow easy steps to make stir-fry veg medley using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 3,
-      "tags": [
-         "vegetarian",
-         "gluten-free"
-      ],
-      "RecipeID": "R_23",
-      "source": "foodLover123"
-   },
-   {
-      "Name": "Masala Apple Fry",
-      "Cuisine": "Continental",
-      "Course": "Dessert",
-      "Non-dairy ingredients": {
-         "green chilli": 1,
-         "ginger": 2,
-         "potato": 4,
-         "capsicum": 2
+      "R_24": {
+         "Name": "Masala Apple Fry",
+         "Cuisine": "Continental",
+         "Course": "Dessert",
+         "Non-dairy ingredients": {
+            "green chilli": 1,
+            "ginger": 2,
+            "potato": 4,
+            "capsicum": 2
+         },
+         "dairy ingredients": {
+            "milk": 2
+         },
+         "Prep time": "13 minutes",
+         "allergens": [
+            "milk"
+         ],
+         "recipe": "Follow easy steps to make masala apple fry using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 6,
+         "tags": [
+            "vegetarian",
+            "gluten-free",
+            "processed"
+         ],
+         "source": "General"
       },
-      "dairy ingredients": {
-         "milk": 2
+      "R_25": {
+         "Name": "Zesty Beet Curry",
+         "Cuisine": "Indian",
+         "Course": "Appetizer",
+         "Non-dairy ingredients": {
+            "ginger": 5,
+            "cabbage": 1
+         },
+         "dairy ingredients": {},
+         "Prep time": "25 minutes",
+         "allergens": [
+            "flour"
+         ],
+         "recipe": "Follow easy steps to make zesty beet curry using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 6,
+         "tags": [
+            "vegetarian",
+            "gluten-free"
+         ],
+         "source": "General"
       },
-      "Prep time": "13 minutes",
-      "allergens": [
-         "milk"
-      ],
-      "recipe": "Follow easy steps to make masala apple fry using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 6,
-      "tags": [
-         "vegetarian",
-         "gluten-free",
-         "processed"
-      ],
-      "RecipeID": "R_24",
-      "source": "General"
-   },
-   {
-      "Name": "Zesty Beet Curry",
-      "Cuisine": "Indian",
-      "Course": "Appetizer",
-      "Non-dairy ingredients": {
-         "ginger": 5,
-         "cabbage": 1
+      "R_26": {
+         "Name": "Tangy Carrot Masala",
+         "Cuisine": "Asian",
+         "Course": "Main",
+         "Non-dairy ingredients": {
+            "brinjal": 4,
+            "carrot": 1,
+            "capsicum": 4
+         },
+         "dairy ingredients": {
+            "milk": 3
+         },
+         "Prep time": "21 minutes",
+         "allergens": [],
+         "recipe": "Follow easy steps to make tangy carrot masala using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 3,
+         "tags": [
+            "vegetarian",
+            "processed"
+         ],
+         "source": "General"
       },
-      "dairy ingredients": {},
-      "Prep time": "25 minutes",
-      "allergens": [
-         "flour"
-      ],
-      "recipe": "Follow easy steps to make zesty beet curry using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 6,
-      "tags": [
-         "vegetarian",
-         "gluten-free"
-      ],
-      "RecipeID": "R_25",
-      "source": "General"
-   },
-   {
-      "Name": "Tangy Carrot Masala",
-      "Cuisine": "Asian",
-      "Course": "Main",
-      "Non-dairy ingredients": {
-         "brinjal": 4,
-         "carrot": 1,
-         "capsicum": 4
+      "R_27": {
+         "Name": "Cabbage Pepper Mix",
+         "Cuisine": "Continental",
+         "Course": "Appetizer",
+         "Non-dairy ingredients": {
+            "ginger": 5,
+            "brinjal": 1
+         },
+         "dairy ingredients": {
+            "milk": 3
+         },
+         "Prep time": "35 minutes",
+         "allergens": [],
+         "recipe": "Follow easy steps to make cabbage pepper mix using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 3,
+         "tags": [
+            "vegetarian",
+            "gourmet"
+         ],
+         "source": "foodLover123"
       },
-      "dairy ingredients": {
-         "milk": 3
+      "R_28": {
+         "Name": "Chilli Egg Smash",
+         "Cuisine": "Indian",
+         "Course": "Dessert",
+         "Non-dairy ingredients": {
+            "potato": 4,
+            "eggs": 5,
+            "ginger": 4,
+            "onion": 2
+         },
+         "dairy ingredients": {
+            "milk": 1
+         },
+         "Prep time": "18 minutes",
+         "allergens": [
+            "milk"
+         ],
+         "recipe": "Follow easy steps to make chilli egg smash using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 6,
+         "tags": [
+            "vegetarian"
+         ],
+         "source": "I<3Food"
       },
-      "Prep time": "21 minutes",
-      "allergens": [],
-      "recipe": "Follow easy steps to make tangy carrot masala using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 3,
-      "tags": [
-         "vegetarian",
-         "processed"
-      ],
-      "RecipeID": "R_26",
-      "source": "General"
-   },
-   {
-      "Name": "Cabbage Pepper Mix",
-      "Cuisine": "Continental",
-      "Course": "Appetizer",
-      "Non-dairy ingredients": {
-         "ginger": 5,
-         "brinjal": 1
+      "R_29": {
+         "Name": "Stuffed Mushroom Caps",
+         "Cuisine": "Asian",
+         "Course": "Appetizer",
+         "Non-dairy ingredients": {
+            "potato": 4,
+            "green chilli": 3,
+            "onion": 3,
+            "apple": 4
+         },
+         "dairy ingredients": {
+            "milk": 3
+         },
+         "Prep time": "43 minutes",
+         "allergens": [],
+         "recipe": "Follow easy steps to make stuffed mushroom caps using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 4,
+         "tags": [
+            "vegetarian",
+            "gluten-free"
+         ],
+         "source": "tArLaDaLaL"
       },
-      "dairy ingredients": {
-         "milk": 3
+      "R_30": {
+         "Name": "Potato Mash Delight",
+         "Cuisine": "Indian",
+         "Course": "Appetizer",
+         "Non-dairy ingredients": {
+            "flour": 2,
+            "mushrooms": 4,
+            "beet": 1,
+            "apple": 1
+         },
+         "dairy ingredients": {
+            "milk": 1
+         },
+         "Prep time": "14 minutes",
+         "allergens": [
+            "milk"
+         ],
+         "recipe": "Follow easy steps to make potato mash delight using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 6,
+         "tags": [
+            "vegetarian",
+            "gluten-free"
+         ],
+         "source": "tArLaDaLaL"
       },
-      "Prep time": "35 minutes",
-      "allergens": [],
-      "recipe": "Follow easy steps to make cabbage pepper mix using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 3,
-      "tags": [
-         "vegetarian",
-         "gourmet"
-      ],
-      "RecipeID": "R_27",
-      "source": "foodLover123"
-   },
-   {
-      "Name": "Chilli Egg Smash",
-      "Cuisine": "Indian",
-      "Course": "Dessert",
-      "Non-dairy ingredients": {
-         "potato": 4,
-         "eggs": 5,
-         "ginger": 4,
-         "onion": 2
+      "R_31": {
+         "Name": "Egg & Onion Toss",
+         "Cuisine": "Asian",
+         "Course": "Appetizer",
+         "Non-dairy ingredients": {
+            "cabbage": 5,
+            "onion": 3,
+            "apple": 1
+         },
+         "dairy ingredients": {
+            "milk": 1
+         },
+         "Prep time": "26 minutes",
+         "allergens": [
+            "eggs"
+         ],
+         "recipe": "Follow easy steps to make egg & onion toss using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 3,
+         "tags": [
+            "vegetarian"
+         ],
+         "source": "foodLover123"
       },
-      "dairy ingredients": {
-         "milk": 1
+      "R_32": {
+         "Name": "Capsicum Carrot Saute",
+         "Cuisine": "Continental",
+         "Course": "Appetizer",
+         "Non-dairy ingredients": {
+            "apple": 1,
+            "carrot": 5,
+            "green chilli": 5,
+            "potato": 5
+         },
+         "dairy ingredients": {},
+         "Prep time": "33 minutes",
+         "allergens": [],
+         "recipe": "Follow easy steps to make capsicum carrot saute using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 3,
+         "tags": [
+            "vegetarian",
+            "gluten-free"
+         ],
+         "source": "I<3Food"
       },
-      "Prep time": "18 minutes",
-      "allergens": [
-         "milk"
-      ],
-      "recipe": "Follow easy steps to make chilli egg smash using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 6,
-      "tags": [
-         "vegetarian"
-      ],
-      "RecipeID": "R_28",
-      "source": "I<3Food"
-   },
-   {
-      "Name": "Stuffed Mushroom Caps",
-      "Cuisine": "Asian",
-      "Course": "Appetizer",
-      "Non-dairy ingredients": {
-         "potato": 4,
-         "green chilli": 3,
-         "onion": 3,
-         "apple": 4
+      "R_33": {
+         "Name": "Herbed Mushroom Bites",
+         "Cuisine": "Continental",
+         "Course": "Dessert",
+         "Non-dairy ingredients": {
+            "eggs": 1
+         },
+         "dairy ingredients": {
+            "milk": 2
+         },
+         "Prep time": "45 minutes",
+         "allergens": [],
+         "recipe": "Follow easy steps to make herbed mushroom bites using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 6,
+         "tags": [
+            "non-vegetarian"
+         ],
+         "source": "General"
       },
-      "dairy ingredients": {
-         "milk": 3
+      "R_34": {
+         "Name": "Crispy Flour Brinjal",
+         "Cuisine": "Asian",
+         "Course": "Main",
+         "Non-dairy ingredients": {
+            "mushrooms": 1,
+            "carrot": 1,
+            "onion": 5
+         },
+         "dairy ingredients": {
+            "milk": 3
+         },
+         "Prep time": "43 minutes",
+         "allergens": [
+            "milk"
+         ],
+         "recipe": "Follow easy steps to make crispy flour brinjal using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 3,
+         "tags": [
+            "vegetarian"
+         ],
+         "source": "foodLover123"
       },
-      "Prep time": "43 minutes",
-      "allergens": [],
-      "recipe": "Follow easy steps to make stuffed mushroom caps using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 4,
-      "tags": [
-         "vegetarian",
-         "gluten-free"
-      ],
-      "RecipeID": "R_29",
-      "source": "tArLaDaLaL"
-   },
-   {
-      "Name": "Potato Mash Delight",
-      "Cuisine": "Indian",
-      "Course": "Appetizer",
-      "Non-dairy ingredients": {
-         "flour": 2,
-         "mushrooms": 4,
-         "beet": 1,
-         "apple": 1
+      "R_35": {
+         "Name": "Spiced Apple Gravy",
+         "Cuisine": "Asian",
+         "Course": "Dessert",
+         "Non-dairy ingredients": {
+            "capsicum": 4,
+            "ginger": 3
+         },
+         "dairy ingredients": {},
+         "Prep time": "28 minutes",
+         "allergens": [],
+         "recipe": "Follow easy steps to make spiced apple gravy using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 4,
+         "tags": [
+            "vegetarian"
+         ],
+         "source": "tArLaDaLaL"
       },
-      "dairy ingredients": {
-         "milk": 1
+      "R_36": {
+         "Name": "Peppered Potato Roast",
+         "Cuisine": "Asian",
+         "Course": "Appetizer",
+         "Non-dairy ingredients": {
+            "onion": 5,
+            "cabbage": 2
+         },
+         "dairy ingredients": {
+            "milk": 3
+         },
+         "Prep time": "35 minutes",
+         "allergens": [
+            "eggs"
+         ],
+         "recipe": "Follow easy steps to make peppered potato roast using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 5,
+         "tags": [
+            "non-vegetarian",
+            "processed"
+         ],
+         "source": "foodLover123"
       },
-      "Prep time": "14 minutes",
-      "allergens": [
-         "milk"
-      ],
-      "recipe": "Follow easy steps to make potato mash delight using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 6,
-      "tags": [
-         "vegetarian",
-         "gluten-free"
-      ],
-      "RecipeID": "R_30",
-      "source": "tArLaDaLaL"
-   },
-   {
-      "Name": "Egg & Onion Toss",
-      "Cuisine": "Asian",
-      "Course": "Appetizer",
-      "Non-dairy ingredients": {
-         "cabbage": 5,
-         "onion": 3,
-         "apple": 1
+      "R_37": {
+         "Name": "Garlic Veggie Pot",
+         "Cuisine": "Continental",
+         "Course": "Dessert",
+         "Non-dairy ingredients": {
+            "apple": 3,
+            "mushrooms": 1
+         },
+         "dairy ingredients": {
+            "milk": 2
+         },
+         "Prep time": "25 minutes",
+         "allergens": [
+            "milk"
+         ],
+         "recipe": "Follow easy steps to make garlic veggie pot using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 5,
+         "tags": [
+            "vegetarian",
+            "processed"
+         ],
+         "source": "g0rgeMehigan"
       },
-      "dairy ingredients": {
-         "milk": 1
+      "R_38": {
+         "Name": "Eggplant Curry Bliss",
+         "Cuisine": "Continental",
+         "Course": "Main",
+         "Non-dairy ingredients": {
+            "potato": 1,
+            "onion": 4,
+            "ginger": 3
+         },
+         "dairy ingredients": {},
+         "Prep time": "41 minutes",
+         "tags": [
+            "vegetarian",
+            "gluten-free"
+         ],
+         "allergens": [],
+         "recipe": "Follow easy steps to make eggplant curry bliss using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 3,
+         "source": "suparna@123"
       },
-      "Prep time": "26 minutes",
-      "allergens": [
-         "eggs"
-      ],
-      "recipe": "Follow easy steps to make egg & onion toss using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 3,
-      "tags": [
-         "vegetarian"
-      ],
-      "RecipeID": "R_31",
-      "source": "foodLover123"
-   },
-   {
-      "Name": "Capsicum Carrot Saute",
-      "Cuisine": "Continental",
-      "Course": "Appetizer",
-      "Non-dairy ingredients": {
-         "apple": 1,
-         "carrot": 5,
-         "green chilli": 5,
-         "potato": 5
+      "R_39": {
+         "Name": "Carrot Ginger Stir-fry",
+         "Cuisine": "Asian",
+         "Course": "Dessert",
+         "Non-dairy ingredients": {
+            "garlic": 5,
+            "ginger": 2,
+            "onion": 1,
+            "capsicum": 5
+         },
+         "dairy ingredients": {},
+         "Prep time": "20 minutes",
+         "tags": [
+            "vegetarian",
+            "vegan",
+            "quick"
+         ],
+         "allergens": [
+            "milk"
+         ],
+         "recipe": "Follow easy steps to make carrot ginger stir-fry using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 5,
+         "source": "tArLaDaLaL"
       },
-      "dairy ingredients": {},
-      "Prep time": "33 minutes",
-      "allergens": [],
-      "recipe": "Follow easy steps to make capsicum carrot saute using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 3,
-      "tags": [
-         "vegetarian",
-         "gluten-free"
-      ],
-      "RecipeID": "R_32",
-      "source": "I<3Food"
-   },
-   {
-      "Name": "Herbed Mushroom Bites",
-      "Cuisine": "Continental",
-      "Course": "Dessert",
-      "Non-dairy ingredients": {
-         "eggs": 1
+      "R_40": {
+         "Name": "Savoury Veg Cake",
+         "Cuisine": "Asian",
+         "Course": "Dessert",
+         "Non-dairy ingredients": {
+            "beet": 3,
+            "potato": 2,
+            "green chilli": 2,
+            "onion": 2
+         },
+         "dairy ingredients": {
+            "milk": 2
+         },
+         "Prep time": "14 minutes",
+         "tags": [
+            "vegetarian",
+            "gluten-free",
+            "quick"
+         ],
+         "allergens": [],
+         "recipe": "Follow easy steps to make savoury veg cake using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 5,
+         "source": "I<3Food"
       },
-      "dairy ingredients": {
-         "milk": 2
-      },
-      "Prep time": "45 minutes",
-      "allergens": [],
-      "recipe": "Follow easy steps to make herbed mushroom bites using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 6,
-      "tags": [
-         "non-vegetarian"
-      ],
-      "RecipeID": "R_33",
-      "source": "General"
-   },
-   {
-      "Name": "Crispy Flour Brinjal",
-      "Cuisine": "Asian",
-      "Course": "Main",
-      "Non-dairy ingredients": {
-         "mushrooms": 1,
-         "carrot": 1,
-         "onion": 5
-      },
-      "dairy ingredients": {
-         "milk": 3
-      },
-      "Prep time": "43 minutes",
-      "allergens": [
-         "milk"
-      ],
-      "recipe": "Follow easy steps to make crispy flour brinjal using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 3,
-      "tags": [
-         "vegetarian"
-      ],
-      "RecipeID": "R_34",
-      "source": "foodLover123"
-   },
-   {
-      "Name": "Spiced Apple Gravy",
-      "Cuisine": "Asian",
-      "Course": "Dessert",
-      "Non-dairy ingredients": {
-         "capsicum": 4,
-         "ginger": 3
-      },
-      "dairy ingredients": {},
-      "Prep time": "28 minutes",
-      "allergens": [],
-      "recipe": "Follow easy steps to make spiced apple gravy using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 4,
-      "tags": [
-         "vegetarian"
-      ],
-      "RecipeID": "R_35",
-      "source": "tArLaDaLaL"
-   },
-   {
-      "Name": "Peppered Potato Roast",
-      "Cuisine": "Asian",
-      "Course": "Appetizer",
-      "Non-dairy ingredients": {
-         "onion": 5,
-         "cabbage": 2
-      },
-      "dairy ingredients": {
-         "milk": 3
-      },
-      "Prep time": "35 minutes",
-      "allergens": [
-         "eggs"
-      ],
-      "recipe": "Follow easy steps to make peppered potato roast using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 5,
-      "tags": [
-         "non-vegetarian",
-         "processed"
-      ],
-      "RecipeID": "R_36",
-      "source": "foodLover123"
-   },
-   {
-      "Name": "Garlic Veggie Pot",
-      "Cuisine": "Continental",
-      "Course": "Dessert",
-      "Non-dairy ingredients": {
-         "apple": 3,
-         "mushrooms": 1
-      },
-      "dairy ingredients": {
-         "milk": 2
-      },
-      "Prep time": "25 minutes",
-      "allergens": [
-         "milk"
-      ],
-      "recipe": "Follow easy steps to make garlic veggie pot using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 5,
-      "tags": [
-         "vegetarian",
-         "processed"
-      ],
-      "RecipeID": "R_37",
-      "source": "g0rgeMehigan"
-   },
-   {
-      "Name": "Eggplant Curry Bliss",
-      "Cuisine": "Continental",
-      "Course": "Main",
-      "Non-dairy ingredients": {
-         "potato": 1,
-         "onion": 4,
-         "ginger": 3
-      },
-      "dairy ingredients": {},
-      "Prep time": "41 minutes",
-      "tags": [
-         "vegetarian",
-         "gluten-free"
-      ],
-      "allergens": [],
-      "recipe": "Follow easy steps to make eggplant curry bliss using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 3,
-      "RecipeID": "R_38",
-      "source": "suparna@123"
-   },
-   {
-      "Name": "Carrot Ginger Stir-fry",
-      "Cuisine": "Asian",
-      "Course": "Dessert",
-      "Non-dairy ingredients": {
-         "garlic": 5,
-         "ginger": 2,
-         "onion": 1,
-         "capsicum": 5
-      },
-      "dairy ingredients": {},
-      "Prep time": "20 minutes",
-      "tags": [
-         "vegetarian",
-         "vegan",
-         "quick"
-      ],
-      "allergens": [
-         "milk"
-      ],
-      "recipe": "Follow easy steps to make carrot ginger stir-fry using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 5,
-      "RecipeID": "R_39",
-      "source": "tArLaDaLaL"
-   },
-   {
-      "Name": "Savoury Veg Cake",
-      "Cuisine": "Asian",
-      "Course": "Dessert",
-      "Non-dairy ingredients": {
-         "beet": 3,
-         "potato": 2,
-         "green chilli": 2,
-         "onion": 2
-      },
-      "dairy ingredients": {
-         "milk": 2
-      },
-      "Prep time": "14 minutes",
-      "tags": [
-         "vegetarian",
-         "gluten-free",
-         "quick"
-      ],
-      "allergens": [],
-      "recipe": "Follow easy steps to make savoury veg cake using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 5,
-      "RecipeID": "R_40",
-      "source": "I<3Food"
-   },
-   {
-      "Name": "Mixed Herb Veg Bowl",
-      "Cuisine": "Continental",
-      "Course": "Appetizer",
-      "Non-dairy ingredients": {
-         "onion": 2,
-         "capsicum": 3,
-         "carrot": 3,
-         "beet": 2
-      },
-      "dairy ingredients": {},
-      "Prep time": "31 minutes",
-      "tags": [
-         "vegetarian",
-         "vegan"
-      ],
-      "allergens": [
-         "milk"
-      ],
-      "recipe": "Follow easy steps to make mixed herb veg bowl using fresh ingredients and simple spices. Perfect for a homemade meal.",
-      "servings": 2,
-      "RecipeID": "R_41",
-      "source": "suparna@123"
-   }
-]
+      "R_41": {
+         "Name": "Mixed Herb Veg Bowl",
+         "Cuisine": "Continental",
+         "Course": "Appetizer",
+         "Non-dairy ingredients": {
+            "onion": 2,
+            "capsicum": 3,
+            "carrot": 3,
+            "beet": 2
+         },
+         "dairy ingredients": {},
+         "Prep time": "31 minutes",
+         "tags": [
+            "vegetarian",
+            "vegan"
+         ],
+         "allergens": [
+            "milk"
+         ],
+         "recipe": "Follow easy steps to make mixed herb veg bowl using fresh ingredients and simple spices. Perfect for a homemade meal.",
+         "servings": 2,
+         "source": "suparna@123"
+      }
+}
