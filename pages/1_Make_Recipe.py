@@ -1,9 +1,9 @@
 import streamlit as st
-from recoUtils import getCuisines, topKRecipes, scoreRecipes
+from recoUtils import getCuisines, topKRecipes, scoreRecipes, getDairy, getNonDairy
 
 # ------------------------------- Ingredient Options -------------------------------
-non_dairy_options = ["onion", "capsicum", "green chilli", "garlic", "carrot", "eggs", "flour"]
-dairy_options = ["milk", "cheese"]
+non_dairy_options = getNonDairy()
+dairy_options = getDairy()
 
 # ------------------------------- Initialize Session State -------------------------------
 if "numAllergens" not in st.session_state:
@@ -82,4 +82,31 @@ if st.button("Suggest Recipes"):
     )
 
     topK = topKRecipes(5, scoredRecipes)
-    st.write(topK)
+    if topK :
+        for recipe in topK:
+            with st.container():
+                st.markdown("---")  # Section divider
+
+                # Card styling using columns
+                top_col1, top_col2 = st.columns([4, 1])
+
+                with top_col1:
+                    st.markdown(f"### 🍽️ {recipe['recipe']}")
+                    st.markdown(f"*Total Match Score:* **{recipe['total_score']}**")
+                    st.markdown(f"*Ingredient Match Score:* **{recipe['ingredient_match_score']}**")
+
+                st.markdown(" ")
+
+                # Info block
+                st.markdown(f"**🗺️ Cuisine:** {recipe['cuisine']}  |  **🍽️ Course:** {recipe['course']}  |  ⏱️ **Prep Time:** {recipe['prep_time']}  |  🍴 **Servings:** {recipe['servings']}")
+
+                st.markdown(" ")
+
+                # Instructions
+                st.markdown("#### 👨‍🍳 Instructions")
+                st.markdown(f"{recipe['recipe']}")
+
+                st.markdown(" ")
+                st.markdown("---")  # Card bottom divider
+    else :
+        st.subheader("Couldn't find any recipes that matched :( Want to try recipes similar users tried?")

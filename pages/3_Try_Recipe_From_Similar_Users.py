@@ -2,8 +2,7 @@ import streamlit as st
 import pickle
 from recoUtils import getUsers, getRecos
 
-
-curUser = st.selectbox('Username', getUsers())
+curUser = st.session_state.currentUser
 recos = getRecos(curUser, 5)
 
 st.title("Recommended Recipes")

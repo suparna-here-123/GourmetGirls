@@ -1,6 +1,5 @@
 '''
-Rule-based recipe recommendation engine based on that user's recipe corpus
-
+Contains all helper functions for recommendation aspect
 '''
 
 import json, pickle
@@ -11,12 +10,23 @@ with open("data/recipes.json") as f:
 
 # Scoring parameters
 dairy_bonus_value = 10
-cuisine_bonus_value = 5
-course_bonus_value = 5
+cuisine_bonus_value = 20
+course_bonus_value = 10
+prep_bonus_value = 5
 
 def getCuisines() :
     return ('Asian', 'Chinese', 'Continental', 'Indian', 'Fusion')
 
+def getNonDairy() :
+    return ["onion", "capsicum", "green chilli", "garlic", "carrot", "eggs", "flour"]
+
+def getDairy() :
+    return ["milk", "cheese"]
+
+def addRecipe(newRecID, newRecipe) :
+    with open('data/recipes.json') as f :
+        recipes[newRecID] = newRecipe
+        f.write(json.dumps(recipes, indent = 2))
 
 def getUsers() :
     return ('suparna@123', 'aditi@456', 'chefMaster', 'gordon@ramsay', 
@@ -30,15 +40,11 @@ def scoreRecipes(numPpl:int, user_cuisine:str, user_course:int, user_allergens:l
                  maxPrepTime:int, user_non_dairy:dict, user_dairy:list) :
     scored_recipes = []
 
-    for recipe in recipes:
+    for recipeID, recipe in recipes.items():
         # --- Allergens Filter ---
         if any(allergen in user_allergens for allergen in recipe.get("allergens", [])):
             continue
         
-        # Prep-time filter
-        if maxPrepTime < int(recipe["Prep time"].split()[0]):
-            continue
-
         # --- Ingredient Match ---
         total_ingredients = len(recipe.get("Non-dairy ingredients", {})) + len(recipe.get("dairy ingredients", {}))
         if total_ingredients == 0:
@@ -69,8 +75,11 @@ def scoreRecipes(numPpl:int, user_cuisine:str, user_course:int, user_allergens:l
         # --- Course Bonus ---
         course_bonus = course_bonus_value if user_course == "Any" or recipe.get("Course") == user_course else 0
 
+        # Prep-time Bonus
+        prep_bonus = prep_bonus_value if int(recipe["Prep time"].split()[0]) else 0
+
         # --- Final Score ---
-        final_score = ingredient_match_score + dairy_bonus + cuisine_bonus + course_bonus
+        final_score = ingredient_match_score + dairy_bonus + cuisine_bonus + course_bonus + prep_bonus
 
         scored_recipes.append({
             "recipe": recipe["Name"],
