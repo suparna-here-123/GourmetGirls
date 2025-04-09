@@ -93,10 +93,10 @@ def topKRecipes(K, recipes) :
 
 # -- Recommend new recipes for user
 def getRecos(user_id : str, n : int) :
-    with open('/home/suppra/Desktop/GourmetGirls/models/svd_model_22.pkl', 'rb') as f:
+    with open('/home/suppra/Desktop/GourmetGirls/models/svd_model_17.pkl', 'rb') as f:
         algo = pickle.load(f)
 
-    with open('/home/suppra/Desktop/GourmetGirls/models/trainset_22.pkl', 'rb') as f:
+    with open('/home/suppra/Desktop/GourmetGirls/models/trainset_17.pkl', 'rb') as f:
         trainset = pickle.load(f)
     
     all_items = trainset.all_items()
@@ -121,29 +121,17 @@ def getRecos(user_id : str, n : int) :
 
     # Top-N Recommendations
     top_n = predictions[:n]
-    for item, rating in top_n:
-        return top_n
-        # print(f"Recommend item {item} with predicted rating {rating:.2f}")
+    return matchRecos(top_n)
 
 # Matching passed recipes IDs to their full description
 def matchRecos(recosList : list) :
+    toSend = []
     for r_id, score in recosList :
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        # Find this recipe's details
+        recipeDesc = recipes[r_id]
+        score = min(100, score * 100)
+        toSend.append((score, recipeDesc))
+    return toSend
 
 if __name__ == "__main__" :
     # input = json.loads(open('data/inputs.json').read())
