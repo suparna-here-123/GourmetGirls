@@ -1,0 +1,5 @@
+users = ['General', 'suparna@123', 'aditi@456', 'chefMaster', 'gordon@ramsay', 
+         'tArLaDaLaL', 'yumCook123', 'food4lyf', 'burpista@89', 
+         'foodLover123', 'kaapiLover57', 'delishrelish564', 'marcoPierre',
+          'g0rgeMehigan', 'sanjayKapoor2004', 'sihikahi34', 'emptyPlate45', 
+          'I<3Food', 'gourmetGal', 'remy&Linguini']

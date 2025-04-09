@@ -21,8 +21,8 @@
     },
     "aditi@456": {
         "preferred_cuisines": [
-            "Indian",
-            "Chinese"
+            "Chinese",
+            "Indian"  
         ],
         "preferred_tags": [
             "vegetarian",
@@ -42,8 +42,7 @@
     "chefMaster": {
         "preferred_cuisines": [
             "Indian",
-            "Chinese",
-            "Fusion"
+            "Chinese"
         ],
         "preferred_tags": [
             "vegetarian",
@@ -54,16 +53,17 @@
             "non-vegetarian"
         ],
         "ingredient_bias": {
-            "carrot": 3,
-            "onion": 2,
+            "potato": 3,
+            "capsicum": 2,
             "green chilli": 2,
             "ginger": 1
         }
     },
     "gordon@ramsay": {
         "preferred_cuisines": [
-            "Indian",
-            "Fusion"
+            "Chinese",
+            "Indian"
+            
         ],
         "preferred_tags": [
             "vegetarian",
@@ -76,10 +76,11 @@
         "ingredient_bias": {
             "carrot": 3,
             "onion": 2,
-            "green chilli": 2,
+            "apple": 2,
             "ginger": 1
         }
     },
+
 
 
     "tArLaDaLaL": {
@@ -96,13 +97,54 @@
             "gluten-free"
         ],
         "ingredient_bias": {
-            "garlic": 3,
-            "capsicum": 2,
-            "ginger": 2,
+            "potato": 3,
+            "carrot": 2,
+            "milk": 2,
             "cabbage": 1
         }
     },
     "yumCook123": {
+        "preferred_cuisines": [
+            "Continental",
+            "Fusion",
+            "Chinese"
+        ],
+        "preferred_tags": [
+            "spicy",
+            "creative",
+            "comfort"
+        ],
+        "disliked_tags": [
+            "gluten-free"
+        ],
+        "ingredient_bias": {
+            "potato": 3,
+            "carrot": 2,
+            "milk": 2,
+            "cabbage": 1
+        }
+    },
+    "food4lyf": {
+        "preferred_cuisines": [
+            "Fusion",
+            "Continental",
+            "Chinese"
+        ],
+        "preferred_tags": [
+            "spicy",
+            "creative"
+        ],
+        "disliked_tags": [
+            "gluten-free"
+        ],
+        "ingredient_bias": {
+            "potato": 3,
+            "carrot": 2,
+            "milk": 2,
+            "cabbage": 1
+        }
+    },
+    "burpista@89": {
         "preferred_cuisines": [
             "Continental",
             "Fusion",
@@ -116,50 +158,14 @@
             "gluten-free"
         ],
         "ingredient_bias": {
-            "garlic": 3,
-            "capsicum": 2,
-            "ginger": 2,
+            "potato": 3,
+            "carrot": 2,
+            "milk": 2,
             "cabbage": 1
         }
     },
-    "food4lyf": {
-        "preferred_cuisines": [
-            "Fusion",
-            "Chinese"
-        ],
-        "preferred_tags": [
-            "spicy",
-            "creative"
-        ],
-        "disliked_tags": [
-            "gluten-free"
-        ],
-        "ingredient_bias": {
-            "garlic": 3,
-            "capsicum": 2,
-            "ginger": 2,
-            "cabbage": 1
-        }
-    },
-    "burpista@89": {
-        "preferred_cuisines": [
-            "Fusion",
-            "Chinese"
-        ],
-        "preferred_tags": [
-            "spicy",
-            "creative"
-        ],
-        "disliked_tags": [
-            "gluten-free"
-        ],
-        "ingredient_bias": {
-            "garlic": 3,
-            "capsicum": 2,
-            "ginger": 2,
-            "cabbage": 1
-        }
-    },
+
+
 
 
     "foodLover123": {
@@ -176,10 +182,10 @@
             "vegan"
         ],
         "ingredient_bias": {
-            "capsicum": 3,
-            "cabbage": 3,
+            "onion": 3,
+            "green chilli": 3,
             "milk": 2,
-            "potato": 1
+            "apple": 1
         }
     },
     "kaapiLover57": {
@@ -196,17 +202,16 @@
             "vegan"
         ],
         "ingredient_bias": {
-            "capsicum": 3,
-            "cabbage": 3,
+            "onion": 3,
+            "green chilli": 3,
             "milk": 2,
-            "potato": 1
+            "apple": 1
         }
     },
     "delishrelish564": {
         "preferred_cuisines": [
             "Continental",
-            "Asian",
-            "Fusion"
+            "Asian"
         ],
         "preferred_tags": [
             "non-vegetarian",
@@ -217,17 +222,16 @@
             "vegan"
         ],
         "ingredient_bias": {
-            "capsicum": 3,
-            "cabbage": 3,
+            "onion": 3,
+            "green chilli": 3,
             "milk": 2,
-            "potato": 1
+            "apple": 1
         }
     },
     "marcoPierre": {
         "preferred_cuisines": [
             "Continental",
-            "Asian",
-            "Chinese"
+            "Asian"
         ],
         "preferred_tags": [
             "non-vegetarian",
@@ -238,13 +242,16 @@
             "vegan"
         ],
         "ingredient_bias": {
-            "capsicum": 3,
-            "cabbage": 3,
+            "onion": 3,
+            "green chilli": 3,
             "milk": 2,
-            "potato": 1
+            "apple": 1
         }
     },
     
+
+
+
     "g0rgeMehigan": {
         "preferred_cuisines": [
             "Continental",

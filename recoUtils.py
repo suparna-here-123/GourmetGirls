@@ -3,10 +3,10 @@ Rule-based recipe recommendation engine based on that user's recipe corpus
 
 '''
 
-import json
+import json, pickle
 
 # Load recipes
-with open("recipes.json") as f:
+with open("data/recipes.json") as f:
     recipes = json.load(f)
 
 # Scoring parameters
@@ -16,6 +16,14 @@ course_bonus_value = 5
 
 def getCuisines() :
     return ('Asian', 'Chinese', 'Continental', 'Indian', 'Fusion')
+
+
+def getUsers() :
+    return ('suparna@123', 'aditi@456', 'chefMaster', 'gordon@ramsay', 
+            'tArLaDaLaL', 'yumCook123', 'food4lyf', 'burpista@89', 
+            'foodLover123', 'kaapiLover57', 'delishrelish564', 'marcoPierre',
+            'g0rgeMehigan', 'sanjayKapoor2004', 'sihikahi34', 'emptyPlate45', 
+            'I<3Food', 'gourmetGal', 'remy&Linguini')
 
 
 def scoreRecipes(numPpl:int, user_cuisine:str, user_course:int, user_allergens:list,
@@ -83,19 +91,73 @@ def topKRecipes(K, recipes) :
     top_k_recipes = sorted(recipes, key=lambda x: x["total_score"], reverse=True)[:K]
     return top_k_recipes
 
+# -- Recommend new recipes for user
+def getRecos(user_id : str, n : int) :
+    with open('/home/suppra/Desktop/GourmetGirls/models/svd_model_22.pkl', 'rb') as f:
+        algo = pickle.load(f)
+
+    with open('/home/suppra/Desktop/GourmetGirls/models/trainset_22.pkl', 'rb') as f:
+        trainset = pickle.load(f)
+    
+    all_items = trainset.all_items()
+    # Convert internal surprise-assigned itemIDs back to what I gave
+    all_items_raw = [trainset.to_raw_iid(iid) for iid in all_items]
+
+    # Get items the user has already interacted with
+    user_inner_id = trainset.to_inner_uid(user_id)
+    items_user_has_rated = set([j for (j, _) in trainset.ur[user_inner_id]])
+
+    # Recommend items the user hasn't rated
+    items_to_predict = [iid for iid in all_items if iid not in items_user_has_rated]
+
+    # Predict ratings
+    predictions = [
+        (trainset.to_raw_iid(iid), algo.predict(user_id, trainset.to_raw_iid(iid)).est)
+        for iid in items_to_predict
+    ]
+
+    # Sort by predicted rating
+    predictions.sort(key=lambda x: x[1], reverse=True)
+
+    # Top-N Recommendations
+    top_n = predictions[:n]
+    for item, rating in top_n:
+        return top_n
+        # print(f"Recommend item {item} with predicted rating {rating:.2f}")
+
+# Matching passed recipes IDs to their full description
+def matchRecos(recosList : list) :
+    for r_id, score in recosList :
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 if __name__ == "__main__" :
-    input = json.loads(open('inputs.json').read())
-    sr = scoreRecipes(input['numPpl'], input['userCuisine'], input['userCourse'],
-                       input['userAllergens'], input['maxPrepTime'], input['Non-dairy ingredients'],
-                       input['dairy ingredients'])
+    # input = json.loads(open('data/inputs.json').read())
+    # sr = scoreRecipes(input['numPpl'], input['userCuisine'], input['userCourse'],
+    #                    input['userAllergens'], input['maxPrepTime'], input['Non-dairy ingredients'],
+    #                    input['dairy ingredients'])
     
-    topK = topKRecipes(5, sr)
+    # topK = topKRecipes(5, sr)
     
-    # --- Present Results ---
-    print("\nTop 5 Recommended Recipes:\n")
-    for i, r in enumerate(topK, 1):
-        print(f"#{i}: {r['recipe']} (Score: {r['total_score']:.2f})")
-        print(f"   Cuisine: {r['cuisine']}, Course: {r['course']}, Prep Time: {r['prep_time']}, Servings: {r['servings']}")
-        print(f"   Recipe: {r['full_recipe']}")
-        print(f"   Ingredient match score: {r['ingredient_match_score']}\n")
+    # # --- Present Results ---
+    # print("\nTop 5 Recommended Recipes:\n")
+    # for i, r in enumerate(topK, 1):
+    #     print(f"#{i}: {r['recipe']} (Score: {r['total_score']:.2f})")
+    #     print(f"   Cuisine: {r['cuisine']}, Course: {r['course']}, Prep Time: {r['prep_time']}, Servings: {r['servings']}")
+    #     print(f"   Recipe: {r['full_recipe']}")
+    #     print(f"   Ingredient match score: {r['ingredient_match_score']}\n")
+    print(getRecos('suparna@123', 10))
