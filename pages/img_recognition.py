@@ -169,10 +169,49 @@ if st.button("Suggest Recipes"):
     scoredRecipes = scoreRecipes(
         numPpl, userCuisine, userCourse, userAllergens, prepTime, non_dairy_dict, dairy_dict
     )
+
     if not scoredRecipes:
         st.warning("No recipes match your criteria. Please adjust your inputs.")
+        st.session_state.recipe_results_ready = False
     else:
-        st.success(f"Found {len(scoredRecipes)} matching recipes!")
-        st.write(scoredRecipes)
-    topK = topKRecipes(5, scoredRecipes)
-    st.write(topK)
+        topK = topKRecipes(5, scoredRecipes)
+        st.session_state.top_k_recipes = topK
+        st.session_state.recipe_results_ready = True
+        st.success(f"Found {len(topK)} matching recipes!")
+
+# ------------------------------- Display Recipes & Handle Help Buttons -------------------------------
+if st.session_state.get("recipe_results_ready"):
+    topK = st.session_state.get("top_k_recipes", [])
+
+    for i, recipe in enumerate(topK):
+        with st.container():
+            st.markdown("---")
+            st.write(recipe)
+            top_col1, top_col2 = st.columns([4, 1])
+            with top_col1:
+                st.markdown(f"### 🍽️ {recipe['recipe']}")
+                st.markdown(f"*Total Match Score:* **{recipe['total_score']}**")
+                st.markdown(f"*Ingredient Match Score:* **{recipe['ingredient_match_score']}**")
+
+            st.markdown(" ")
+            st.markdown(f"**🗺️ Cuisine:** {recipe['cuisine']}  |  **🍽️ Course:** {recipe['course']}  |  ⏱️ **Prep Time:** {recipe['prep_time']}  |  🍴 **Servings:** {recipe['servings']}")
+
+            st.markdown("#### 👨‍🍳 Instructions")
+            st.markdown(f"{recipe['full_recipe']}")
+
+            st.markdown(" ")
+
+            # Ensure each button has a unique key
+            if st.button("Need some help?", key=f"help_button_{i}"):
+                st.toast(f"🔁 Help selected for: {recipe['recipe']}")
+                st.session_state.selected_recipe = {
+                    'name': recipe['recipe'],
+                }
+                st.session_state.help_requested = True
+
+            st.markdown("---")
+
+# ------------------------------- Redirect to Chatbot Page -------------------------------
+if st.session_state.get("help_requested"):
+    st.switch_page("pages/4_Recipe_Chatbot.py")
+    #st.session_state.help_requested = False  # Reset the flag after switching pages
