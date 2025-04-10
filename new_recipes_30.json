@@ -1,0 +1,752 @@
+[
+  {
+    "Name": "Dal Makhani",
+    "Cuisine": "Indian",
+    "Course": "Main",
+    "Non-dairy ingredients": {
+      "black lentils (urad dal)": 1,
+      "kidney beans (rajma)": 0.25,
+      "onion": 1,
+      "tomatoes": 2,
+      "ginger-garlic paste": 1,
+      "green chili": 1,
+      "spices (turmeric, red chili powder, garam masala)": 3,
+      "oil": 2
+    },
+    "dairy ingredients": {
+      "butter": 2,
+      "cream": 0.25
+    },
+    "Prep time": "60 minutes (plus soaking time)",
+    "meat": false,
+    "gluten-free": true,
+    "allergens": ["dairy"],
+    "recipe": "Soak lentils and beans overnight. Pressure cook until soft. Sauté onions, ginger-garlic paste, green chili, and tomatoes in oil/butter. Add cooked lentils, spices, cream, and simmer. Garnish with cream and butter.",
+    "servings": 4
+  },
+  {
+    "Name": "Butter Chicken",
+    "Cuisine": "Indian",
+    "Course": "Main",
+    "Non-dairy ingredients": {
+      "chicken": 500,
+      "onion": 1,
+      "tomatoes": 3,
+      "ginger-garlic paste": 1,
+      "cashew nuts": 15,
+      "spices (kasuri methi, garam masala, red chili powder)": 3,
+      "oil": 2
+    },
+    "dairy ingredients": {
+      "yogurt": 0.5,
+      "butter": 3,
+      "cream": 0.25
+    },
+    "Prep time": "45 minutes (plus marination time)",
+    "meat": true,
+    "gluten-free": true,
+    "allergens": ["dairy", "nuts"],
+    "recipe": "Marinate chicken in yogurt and spices. Grill or pan-fry chicken. Make a gravy by sautéing onions, ginger-garlic, tomatoes, and cashew paste. Add spices, butter, cream, and cooked chicken. Simmer and serve.",
+    "servings": 4
+  },
+  {
+    "Name": "Masala Dosa",
+    "Cuisine": "Indian",
+    "Course": "Breakfast/Main",
+    "Non-dairy ingredients": {
+        "dosa batter (rice, urad dal)": 2,
+        "potatoes": 3,
+        "onion": 1,
+        "mustard seeds": 1,
+        "curry leaves": 10,
+        "turmeric powder": 0.5,
+        "green chilies": 1,
+        "oil": 3
+    },
+    "dairy ingredients": {},
+    "Prep time": "30 minutes (plus fermentation time for batter)",
+    "meat": false,
+    "gluten-free": true,
+    "allergens": [],
+    "recipe": "Prepare potato filling: Boil and mash potatoes. Sauté mustard seeds, curry leaves, onions, green chilies. Add turmeric and mashed potatoes. Cook dosa crepe on a hot griddle, spread potato filling, fold, and serve with sambar and chutney.",
+    "servings": 2
+  },
+  {
+    "Name": "Idli Sambhar",
+    "Cuisine": "Indian",
+    "Course": "Breakfast",
+    "Non-dairy ingredients": {
+        "idli batter (rice, urad dal)": 2,
+        "toor dal (pigeon peas)": 0.5,
+        "vegetables (drumstick, carrots, pumpkin, onion)": 1,
+        "tamarind pulp": 1,
+        "sambar powder": 2,
+        "mustard seeds": 1,
+        "curry leaves": 10,
+        "asafoetida (hing)": 0.25,
+        "oil": 1
+    },
+    "dairy ingredients": {},
+    "Prep time": "40 minutes (plus fermentation time for batter)",
+    "meat": false,
+    "gluten-free": true,
+    "allergens": [],
+    "recipe": "Steam idlis using fermented batter. Prepare sambar: Cook toor dal and vegetables. Temper mustard seeds, curry leaves, hing in oil. Add cooked dal, vegetables, tamarind pulp, sambar powder, and salt. Simmer. Serve hot idlis with sambar.",
+    "servings": 2
+  },
+  {
+    "Name": "Dhokla",
+    "Cuisine": "Indian",
+    "Course": "Snack",
+    "Non-dairy ingredients": {
+        "gram flour (besan)": 1,
+        "semolina (suji)": 2,
+        "ginger paste": 1,
+        "green chili paste": 1,
+        "lemon juice": 1,
+        "eno fruit salt (or baking soda)": 1,
+        "mustard seeds": 1,
+        "curry leaves": 8,
+        "sugar": 1,
+        "water": 1,
+        "oil": 2
+    },
+    "dairy ingredients": {
+        "yogurt": 0.25
+    },
+    "Prep time": "30 minutes",
+    "meat": false,
+    "gluten-free": false,
+    "allergens": ["gluten", "dairy"],
+    "recipe": "Mix besan, suji, yogurt, ginger-chili paste, lemon juice, salt, water to a batter. Add Eno just before steaming. Steam for 15-20 mins. Prepare tempering with oil, mustard seeds, curry leaves, green chili, sugar, water. Pour over dhokla. Cut and serve.",
+    "servings": 4
+  },
+  {
+    "Name": "Vada Pav",
+    "Cuisine": "Indian",
+    "Course": "Snack",
+    "Non-dairy ingredients": {
+        "potatoes": 4,
+        "gram flour (besan)": 1,
+        "ginger-garlic paste": 1,
+        "green chilies": 2,
+        "mustard seeds": 1,
+        "curry leaves": 10,
+        "turmeric powder": 0.5,
+        "asafoetida (hing)": 0.25,
+        "pav buns": 4,
+        "chutneys (green, tamarind, garlic)": 3,
+        "oil": 500
+    },
+    "dairy ingredients": {},
+    "Prep time": "40 minutes",
+    "meat": false,
+    "gluten-free": false,
+    "allergens": ["gluten"],
+    "recipe": "Prepare potato filling (batata vada): Boil potatoes. Sauté mustard seeds, curry leaves, hing, ginger-garlic, green chilies. Add turmeric, mashed potatoes. Make balls. Dip in besan batter (besan, salt, water) and deep fry. Slit pav buns, apply chutneys, place vada inside. Serve hot.",
+    "servings": 4
+  },
+  {
+    "Name": "Hyderabadi Chicken Biryani",
+    "Cuisine": "Indian",
+    "Course": "Main",
+    "Non-dairy ingredients": {
+        "basmati rice": 2,
+        "chicken": 500,
+        "onions": 2,
+        "tomatoes": 1,
+        "ginger-garlic paste": 2,
+        "green chilies": 4,
+        "mint leaves": 0.5,
+        "coriander leaves": 0.5,
+        "whole spices (bay leaf, cloves, cardamom, cinnamon)": 1,
+        "biryani masala powder": 2,
+        "turmeric powder": 0.5,
+        "red chili powder": 1,
+        "lemon juice": 1,
+        "saffron strands": 1,
+        "oil/ghee": 4
+    },
+    "dairy ingredients": {
+        "yogurt": 1
+    },
+    "Prep time": "90 minutes (plus marination time)",
+    "meat": true,
+    "gluten-free": true,
+    "allergens": ["dairy"],
+    "recipe": "Marinate chicken with yogurt, spices, herbs, lemon juice. Par-cook rice with whole spices. Layer rice and marinated chicken in a heavy-bottomed pot. Top with fried onions, saffron milk, ghee. Seal and cook on low heat ('dum') for 30-40 mins.",
+    "servings": 4
+  },
+  {
+    "Name": "Vegetable Korma",
+    "Cuisine": "Indian",
+    "Course": "Main",
+    "Non-dairy ingredients": {
+        "mixed vegetables (carrots, beans, peas, potatoes)": 2,
+        "onion": 1,
+        "tomatoes": 1,
+        "ginger-garlic paste": 1,
+        "cashew nuts": 15,
+        "coconut milk": 0.5,
+        "spices (turmeric, coriander powder, garam masala)": 3,
+        "oil": 2
+    },
+    "dairy ingredients": {
+        "cream": 0.1
+    },
+    "Prep time": "40 minutes",
+    "meat": false,
+    "gluten-free": true,
+    "allergens": ["nuts", "dairy"],
+    "recipe": "Sauté onion, ginger-garlic paste. Add tomatoes and cook until soft. Add chopped vegetables and spices. Cook for a few minutes. Add cashew paste, coconut milk, and water. Simmer until vegetables are tender. Garnish with cream (optional) and coriander.",
+    "servings": 4
+  },
+  {
+    "Name": "Aloo Paratha",
+    "Cuisine": "Indian",
+    "Course": "Breakfast/Main",
+    "Non-dairy ingredients": {
+        "whole wheat flour (atta)": 2,
+        "potatoes": 3,
+        "onion": 0.5,
+        "green chilies": 1,
+        "coriander leaves": 2,
+        "spices (cumin powder, red chili powder, amchur)": 2,
+        "oil/ghee": 4
+    },
+    "dairy ingredients": {
+        "butter": 2
+    },
+    "Prep time": "45 minutes",
+    "meat": false,
+    "gluten-free": false,
+    "allergens": ["gluten", "dairy"],
+    "recipe": "Make dough from wheat flour and water. Prepare filling: Boil and mash potatoes. Mix with finely chopped onion, green chilies, coriander, and spices. Stuff filling into dough balls, roll out flatbreads. Cook on a hot griddle with oil/ghee until golden brown. Serve with butter or yogurt.",
+    "servings": 4
+  },
+  {
+    "Name": "Gobi Manchurian (Dry)",
+    "Cuisine": "Indian",
+    "Course": "Starter/Main",
+    "Non-dairy ingredients": {
+        "cauliflower florets": 1,
+        "corn flour": 4,
+        "all-purpose flour (maida)": 2,
+        "ginger-garlic paste": 1,
+        "soy sauce": 2,
+        "vinegar": 1,
+        "tomato ketchup": 2,
+        "chopped onion": 1,
+        "chopped capsicum": 1,
+        "chopped spring onions": 2,
+        "oil": 500
+    },
+    "dairy ingredients": {},
+    "Prep time": "40 minutes",
+    "meat": false,
+    "gluten-free": false,
+    "allergens": ["gluten", "soy"],
+    "recipe": "Make batter with flours, ginger-garlic paste, salt, pepper, water. Coat cauliflower florets and deep fry until crisp. Sauté onion, ginger-garlic, capsicum. Add soy sauce, vinegar, ketchup. Toss fried gobi in the sauce. Garnish with spring onions.",
+    "servings": 3
+  },
+  {
+    "Name": "Rasgulla",
+    "Cuisine": "Indian",
+    "Course": "Dessert",
+    "Non-dairy ingredients": {
+        "lemon juice/vinegar": 2,
+        "sugar": 1.5,
+        "cardamom pods": 3,
+        "rose water (optional)": 1
+    },
+    "dairy ingredients": {
+        "milk (full fat)": 1
+    },
+    "Prep time": "60 minutes (plus chilling time)",
+    "meat": false,
+    "gluten-free": true,
+    "allergens": ["dairy"],
+    "recipe": "Boil milk, curdle using lemon juice/vinegar. Strain the chenna (paneer) and knead until smooth. Make small balls. Prepare sugar syrup with sugar, water, cardamom. Boil chenna balls in syrup for 15-20 mins until cooked and spongy. Chill and serve.",
+    "servings": 8
+  },
+  {
+    "Name": "Jalebi",
+    "Cuisine": "Indian",
+    "Course": "Dessert",
+    "Non-dairy ingredients": {
+        "all-purpose flour (maida)": 1,
+        "corn flour": 2,
+        "baking soda": 0.25,
+        "vinegar": 1,
+        "sugar": 1,
+        "saffron strands": 1,
+        "lemon juice": 0.5,
+        "oil/ghee for frying": 500
+    },
+    "dairy ingredients": {
+        "yogurt": 0.25
+    },
+    "Prep time": "30 minutes (plus fermentation time)",
+    "meat": false,
+    "gluten-free": false,
+    "allergens": ["gluten", "dairy"],
+    "recipe": "Make batter with flours, yogurt, baking soda, vinegar, water. Let it ferment for 8-10 hours or use instant method with yeast. Prepare sugar syrup with sugar, water, saffron, lemon juice. Pipe batter in spirals into hot oil/ghee and fry until crisp. Soak in warm sugar syrup for a minute.",
+    "servings": 4
+  },
+  {
+    "Name": "Baingan Bharta",
+    "Cuisine": "Indian",
+    "Course": "Main",
+    "Non-dairy ingredients": {
+      "large eggplant (baingan)": 1,
+      "onion": 1,
+      "tomatoes": 2,
+      "ginger-garlic paste": 1,
+      "green chilies": 1,
+      "turmeric powder": 0.5,
+      "red chili powder": 1,
+      "garam masala": 0.5,
+      "coriander leaves": 2,
+      "oil": 3
+    },
+    "dairy ingredients": {},
+    "Prep time": "45 minutes",
+    "meat": false,
+    "gluten-free": true,
+    "allergens": [],
+    "recipe": "Roast eggplant over flame or in oven until skin chars and flesh is soft. Peel and mash the flesh. Heat oil, sauté onions until golden. Add ginger-garlic paste, green chilies, tomatoes. Cook until oil separates. Add spices and mashed eggplant. Cook for 5-7 minutes. Garnish with coriander.",
+    "servings": 3
+  },
+  {
+    "Name": "Chicken Korma",
+    "Cuisine": "Indian",
+    "Course": "Main",
+    "Non-dairy ingredients": {
+      "chicken": 500,
+      "onions": 2,
+      "ginger-garlic paste": 1.5,
+      "cashew nuts": 15,
+      "almonds": 10,
+      "poppy seeds (khuskhus)": 1,
+      "spices (cardamom, cloves, cinnamon, coriander powder, turmeric, garam masala)": 4,
+      "oil/ghee": 3
+    },
+    "dairy ingredients": {
+      "yogurt": 0.75,
+      "cream (optional)": 0.1
+    },
+    "Prep time": "50 minutes",
+    "meat": true,
+    "gluten-free": true,
+    "allergens": ["dairy", "nuts"],
+    "recipe": "Make a paste of soaked cashews, almonds, poppy seeds. Brown onions and make a paste. Sauté ginger-garlic paste, add chicken and brown slightly. Add yogurt, onion paste, nut paste, and spices. Cook until chicken is tender and oil separates. Add water/stock for desired consistency. Garnish with cream.",
+    "servings": 4
+  },
+  {
+    "Name": "Bengali Fish Curry (Macher Jhol)",
+    "Cuisine": "Indian",
+    "Course": "Main",
+    "Non-dairy ingredients": {
+        "Rohu or Katla fish steaks": 4,
+        "potatoes": 1,
+        "cauliflower florets": 0.5,
+        "onion": 1,
+        "ginger paste": 1,
+        "cumin powder": 1,
+        "coriander powder": 1,
+        "turmeric powder": 1,
+        "red chili powder": 0.5,
+        "panch phoron (Bengali five spice)": 1,
+        "mustard oil": 4,
+        "green chilies": 2,
+        "coriander leaves": 2
+    },
+    "dairy ingredients": {},
+    "Prep time": "40 minutes",
+    "meat": true,
+    "gluten-free": true,
+    "allergens": ["fish"],
+    "recipe": "Marinate fish with turmeric and salt, fry lightly in mustard oil. Fry potatoes and cauliflower until light brown. Temper oil with panch phoron and green chilies. Sauté onion paste, ginger paste. Add spices, tomatoes (optional). Add fried vegetables, fish, water. Simmer until fish is cooked. Garnish with coriander.",
+    "servings": 3
+  },
+  {
+    "Name": "Kheer (Rice Pudding)",
+    "Cuisine": "Indian",
+    "Course": "Dessert",
+    "Non-dairy ingredients": {
+        "basmati rice (short grain preferred)": 0.25,
+        "sugar": 0.5,
+        "cardamom pods": 4,
+        "nuts (almonds, pistachios)": 2,
+        "saffron strands (optional)": 1
+    },
+    "dairy ingredients": {
+        "milk (full fat)": 1,
+        "ghee (optional)": 1
+    },
+    "Prep time": "45 minutes",
+    "meat": false,
+    "gluten-free": true,
+    "allergens": ["dairy", "nuts"],
+    "recipe": "Wash and soak rice. Sauté nuts in ghee (optional). Boil milk, add rice and cook on low heat, stirring often, until rice is soft and milk thickens. Add sugar, crushed cardamom, saffron (soaked in warm milk). Cook for another 5-10 minutes. Garnish with nuts. Serve warm or chilled.",
+    "servings": 4
+  },
+  {
+    "Name": "Gulab Jamun",
+    "Cuisine": "Indian",
+    "Course": "Dessert",
+    "Non-dairy ingredients": {
+        "all-purpose flour (maida)": 2,
+        "baking soda": 0.25,
+        "cardamom powder": 0.5,
+        "sugar": 1.5,
+        "rose water": 1,
+        "saffron strands (optional)": 1,
+        "oil/ghee for frying": 500
+    },
+    "dairy ingredients": {
+        "milk powder": 1,
+        "ghee": 1,
+        "milk": 3
+    },
+    "Prep time": "40 minutes",
+    "meat": false,
+    "gluten-free": false,
+    "allergens": ["gluten", "dairy"],
+    "recipe": "Mix milk powder, maida, baking soda, cardamom powder. Add ghee and knead into a soft dough using milk. Make small smooth balls. Prepare sugar syrup with sugar, water, rose water, saffron. Deep fry jamun balls on low heat until golden brown. Soak fried jamuns in warm sugar syrup for at least 30 mins.",
+    "servings": 10
+  },
+  {
+    "Name": "Pad Thai",
+    "Cuisine": "Asian",
+    "Course": "Main",
+    "Non-dairy ingredients": {
+        "rice noodles": 200,
+        "shrimp or tofu/chicken": 150,
+        "bean sprouts": 1,
+        "garlic chives": 0.25,
+        "shallots": 2,
+        "garlic": 2,
+        "firm tofu (optional)": 100,
+        "peanuts (roasted)": 2,
+        "lime": 1,
+        "tamarind paste": 2,
+        "fish sauce (or soy sauce for veg)": 2,
+        "sugar": 1,
+        "chili flakes": 0.5,
+        "egg": 1,
+        "oil": 3
+    },
+    "dairy ingredients": {},
+    "Prep time": "30 minutes",
+    "meat": true,
+    "gluten-free": true,
+    "allergens": ["peanuts", "shellfish", "soy", "egg"],
+    "recipe": "Soak rice noodles. Prepare sauce: mix tamarind, fish/soy sauce, sugar. Stir-fry shallots, garlic, tofu/shrimp/chicken in oil. Push aside, scramble egg. Add noodles, sauce, bean sprouts, chives. Toss until cooked. Serve topped with peanuts, chili flakes, lime wedge.",
+    "servings": 2
+  },
+  {
+    "Name": "Sushi Rolls (California Roll)",
+    "Cuisine": "Asian",
+    "Course": "Starter/Main",
+    "Non-dairy ingredients": {
+        "sushi rice": 1,
+        "nori seaweed sheets": 3,
+        "cucumber": 0.5,
+        "avocado": 1,
+        "crab sticks (imitation)": 6,
+        "rice vinegar": 3,
+        "sugar": 1,
+        "salt": 0.5,
+        "sesame seeds": 1,
+        "soy sauce": 2,
+        "wasabi": 1,
+        "pickled ginger": 1
+    },
+    "dairy ingredients": {},
+    "Prep time": "50 minutes",
+    "meat": true,
+    "gluten-free": false, 
+    "allergens": ["shellfish (imitation)", "soy", "gluten", "sesame"],
+    "recipe": "Cook sushi rice, season with vinegar, sugar, salt mixture. Lay nori on bamboo mat, spread rice evenly, sprinkle sesame seeds. Flip nori (rice side down). Place crab sticks, cucumber, avocado strips near the edge. Roll tightly using the mat. Slice roll into pieces. Serve with soy sauce, wasabi, ginger.",
+    "servings": 3
+  },
+  {
+    "Name": "Tom Yum Soup",
+    "Cuisine": "Asian",
+    "Course": "Starter",
+    "Non-dairy ingredients": {
+        "shrimp or mushrooms/tofu": 150,
+        "lemongrass": 1,
+        "galangal": 1,
+        "kaffir lime leaves": 4,
+        "mushrooms": 5,
+        "fish sauce (or soy sauce)": 2,
+        "lime juice": 2,
+        "chili paste (nam prik pao)": 1,
+        "vegetable broth or water": 4,
+        "cherry tomatoes": 5,
+        "coriander": 2
+    },
+    "dairy ingredients": {
+        "evaporated milk (optional)": 2
+    },
+    "Prep time": "25 minutes",
+    "meat": true, 
+    "gluten-free": true, 
+    "allergens": ["shellfish", "soy", "dairy (optional)"],
+    "recipe": "Boil broth/water with bruised lemongrass, galangal, lime leaves. Add mushrooms, shrimp/tofu. Cook until protein is done. Stir in fish/soy sauce, lime juice, chili paste. Add tomatoes. Simmer briefly. Add evaporated milk (optional). Garnish with coriander.",
+    "servings": 2
+  },
+  {
+    "Name": "Kimchi Fried Rice",
+    "Cuisine": "Asian",
+    "Course": "Main",
+    "Non-dairy ingredients": {
+        "cooked rice (day old)": 2,
+        "kimchi (chopped)": 1,
+        "kimchi juice": 2,
+        "gochujang (Korean chili paste)": 1,
+        "sesame oil": 1,
+        "vegetable oil": 1,
+        "onion": 0.5,
+        "garlic": 1,
+        "egg": 1,
+        "scallions": 1,
+        "optional protein (spam, bacon, tofu)": 100
+    },
+    "dairy ingredients": {},
+    "Prep time": "20 minutes",
+    "meat": false,
+    "gluten-free": false, 
+    "allergens": ["soy", "egg", "sesame", "gluten (potential)"],
+    "recipe": "Sauté onion, garlic, optional protein in vegetable oil. Add chopped kimchi, cook for few minutes. Stir in rice, kimchi juice, gochujang. Mix well and heat through. Drizzle with sesame oil. Serve topped with a fried egg and chopped scallions.",
+    "servings": 2
+  },
+  {
+    "Name": "Vegetable Spring Rolls",
+    "Cuisine": "Asian",
+    "Course": "Starter",
+    "Non-dairy ingredients": {
+        "spring roll wrappers": 10,
+        "cabbage (shredded)": 1,
+        "carrots (julienned)": 1,
+        "bean sprouts": 0.5,
+        "capsicum (thinly sliced)": 0.5,
+        "spring onions": 2,
+        "garlic": 2,
+        "ginger": 1,
+        "soy sauce": 1,
+        "vinegar": 0.5,
+        "sesame oil": 0.5,
+        "oil for frying": 500
+    },
+    "dairy ingredients": {},
+    "Prep time": "40 minutes",
+    "meat": false,
+    "gluten-free": false,
+    "allergens": ["gluten", "soy", "sesame"],
+    "recipe": "Stir-fry garlic, ginger. Add vegetables and sauté until tender-crisp. Season with soy sauce, vinegar, sesame oil. Let filling cool. Place filling on spring roll wrapper, fold sides, roll tightly, sealing edge with flour paste. Deep fry until golden and crisp. Serve with sweet chili sauce.",
+    "servings": 5
+  },
+  {
+    "Name": "Spaghetti Aglio e Olio",
+    "Cuisine": "Continental",
+    "Course": "Main",
+    "Non-dairy ingredients": {
+        "spaghetti": 200,
+        "garlic": 4,
+        "olive oil (extra virgin)": 4,
+        "red pepper flakes": 0.5,
+        "parsley (chopped)": 2,
+        "salt": 1
+    },
+    "dairy ingredients": {
+        "parmesan cheese (optional garnish)": 2
+    },
+    "Prep time": "15 minutes",
+    "meat": false,
+    "gluten-free": false,
+    "allergens": ["gluten", "dairy (optional)"],
+    "recipe": "Cook spaghetti according to package directions; reserve some pasta water. While pasta cooks, heat olive oil in a pan over low heat. Add thinly sliced garlic and red pepper flakes. Cook gently until garlic is fragrant and lightly golden (do not brown). Drain pasta, add to the pan with garlic oil. Toss well, adding pasta water if needed. Stir in parsley and salt. Serve immediately, optionally topped with parmesan.",
+    "servings": 2
+  },
+  {
+    "Name": "Chicken Caesar Salad",
+    "Cuisine": "Continental",
+    "Course": "Main/Starter",
+    "Non-dairy ingredients": {
+        "romaine lettuce": 1,
+        "chicken breast": 1,
+        "croutons": 1,
+        "olive oil": 2,
+        "lemon juice": 1,
+        "garlic": 1,
+        "anchovy paste (optional)": 0.5,
+        "Worcestershire sauce": 0.5,
+        "Dijon mustard": 1,
+        "egg yolk (pasteurized)": 1
+    },
+    "dairy ingredients": {
+        "parmesan cheese (shaved or grated)": 0.25
+    },
+    "Prep time": "30 minutes",
+    "meat": true,
+    "gluten-free": false, 
+    "allergens": ["gluten", "dairy", "egg", "fish (anchovy/Worcestershire)"],
+    "recipe": "Grill or pan-sear chicken breast, slice. Prepare dressing: Whisk egg yolk, Dijon, garlic, anchovy paste, Worcestershire sauce, lemon juice. Slowly drizzle in olive oil while whisking until emulsified. Stir in parmesan. Toss romaine lettuce with dressing, add chicken slices, croutons, and extra parmesan.",
+    "servings": 2
+  },
+  {
+    "Name": "Shepherd's Pie (Lamb)",
+    "Cuisine": "Continental",
+    "Course": "Main",
+    "Non-dairy ingredients": {
+        "ground lamb": 500,
+        "onion": 1,
+        "carrots": 1,
+        "celery": 1,
+        "peas": 0.5,
+        "potatoes": 4,
+        "beef or vegetable broth": 1,
+        "tomato paste": 1,
+        "Worcestershire sauce": 1,
+        "thyme": 1,
+        "rosemary": 1,
+        "oil": 1
+    },
+    "dairy ingredients": {
+        "butter": 2,
+        "milk": 0.25
+    },
+    "Prep time": "75 minutes",
+    "meat": true,
+    "gluten-free": true, 
+    "allergens": ["dairy", "fish (Worcestershire)"],
+    "recipe": "Brown lamb in oil. Add chopped onion, carrots, celery; cook until soft. Stir in tomato paste, herbs, Worcestershire sauce, broth, peas. Simmer. Boil potatoes, mash with butter and milk. Top lamb mixture with mashed potatoes. Bake at 180C (350F) for 20-25 mins until top is golden.",
+    "servings": 4
+  },
+  {
+    "Name": "Pancakes with Maple Syrup",
+    "Cuisine": "Continental",
+    "Course": "Breakfast",
+    "Non-dairy ingredients": {
+        "all-purpose flour": 1,
+        "sugar": 2,
+        "baking powder": 2,
+        "salt": 0.5,
+        "egg": 1,
+        "vegetable oil": 2,
+        "maple syrup": 4
+    },
+    "dairy ingredients": {
+        "milk": 1,
+        "butter (for cooking/serving)": 2
+    },
+    "Prep time": "20 minutes",
+    "meat": false,
+    "gluten-free": false, 
+    "allergens": ["gluten", "egg", "dairy"],
+    "recipe": "Whisk dry ingredients (flour, sugar, baking powder, salt). In separate bowl, whisk milk, egg, oil. Pour wet ingredients into dry and mix until just combined (don't overmix). Heat lightly oiled/buttered griddle or pan. Pour batter to form pancakes. Cook until bubbles appear, flip and cook other side. Serve hot with butter and maple syrup.",
+    "servings": 3
+  },
+  {
+    "Name": "Hummus with Pita Bread",
+    "Cuisine": "Fusion",
+    "Course": "Starter/Snack",
+    "Non-dairy ingredients": {
+        "chickpeas (canned or cooked)": 1,
+        "tahini (sesame paste)": 0.25,
+        "lemon juice": 3,
+        "garlic": 1,
+        "olive oil": 3,
+        "cumin": 0.5,
+        "salt": 0.5,
+        "pita bread": 4,
+        "paprika (garnish)": 0.25,
+        "parsley (garnish)": 1
+    },
+    "dairy ingredients": {},
+    "Prep time": "15 minutes",
+    "meat": false,
+    "gluten-free": false,
+    "allergens": ["sesame", "gluten"],
+    "recipe": "Drain chickpeas, reserving some liquid. Combine chickpeas, tahini, lemon juice, garlic, salt, cumin in a food processor. Blend until smooth, adding reserved chickpea liquid or water to reach desired consistency. Transfer to a bowl, drizzle with olive oil, sprinkle with paprika and parsley. Serve with warm pita bread.",
+    "servings": 4
+  },
+  {
+    "Name": "Misal Pav",
+    "Cuisine": "Indian",
+    "Course": "Main/Breakfast",
+    "Non-dairy ingredients": {
+        "moth beans (matki) sprouts": 1.5,
+        "onion": 2,
+        "tomatoes": 1,
+        "ginger-garlic paste": 1,
+        "coconut (grated, dry)": 2,
+        "misal masala": 2,
+        "red chili powder": 1,
+        "turmeric powder": 0.5,
+        "mustard seeds": 1,
+        "curry leaves": 10,
+        "oil": 3,
+        "farsan/sev (mixed fried snacks)": 1,
+        "pav buns": 4,
+        "lemon wedges": 1
+    },
+    "dairy ingredients": {},
+    "Prep time": "50 minutes (plus sprouting time)",
+    "meat": false,
+    "gluten-free": false,
+    "allergens": ["gluten"],
+    "recipe": "Pressure cook sprouts. Roast dry coconut, onion until brown, grind to paste with ginger-garlic. Heat oil, add mustard seeds, curry leaves. Add paste, sauté. Add tomatoes, spices, misal masala. Cook till oil separates. Add cooked sprouts, water. Simmer. Serve hot curry (misal) topped with farsan, chopped onion, coriander, lemon juice, with pav buns.",
+    "servings": 4
+  },
+  {
+    "Name": "Pesarattu (Moong Dal Dosa)",
+    "Cuisine": "Indian",
+    "Course": "Breakfast",
+    "Non-dairy ingredients": {
+        "whole green moong dal": 1,
+        "rice": 2,
+        "ginger": 1,
+        "green chilies": 2,
+        "cumin seeds": 1,
+        "onion (finely chopped, for topping)": 1,
+        "oil": 3
+    },
+    "dairy ingredients": {},
+    "Prep time": "20 minutes (plus soaking time)",
+    "meat": false,
+    "gluten-free": true,
+    "allergens": [],
+    "recipe": "Soak moong dal and rice for 4-6 hours. Grind soaked dal, rice, ginger, green chilies, cumin seeds, salt into a smooth batter (dosa consistency). Heat a griddle, pour batter and spread into a thin circle (dosa). Sprinkle chopped onions on top (optional). Drizzle oil around edges. Cook until crisp and golden brown. Fold and serve hot with ginger chutney.",
+    "servings": 4
+  },
+  {
+    "Name": "Undhiyu",
+    "Cuisine": "Indian",
+    "Course": "Main",
+    "Non-dairy ingredients": {
+        "mixed winter vegetables (surti papdi, yam, sweet potato, potato, raw banana, eggplant)": 500,
+        "fenugreek leaves (methi)": 1,
+        "gram flour (besan)": 0.5,
+        "coconut (grated)": 0.5,
+        "coriander leaves": 0.5,
+        "green chili-ginger-garlic paste": 2,
+        "sesame seeds": 1,
+        "peanuts (crushed)": 2,
+        "sugar": 1,
+        "lemon juice": 1,
+        "spices (turmeric, chili powder, garam masala, ajwain)": 4,
+        "oil": 0.5
+    },
+    "dairy ingredients": {},
+    "Prep time": "90 minutes",
+    "meat": false,
+    "gluten-free": true, 
+    "allergens": ["peanuts", "sesame"],
+    "recipe": "Make methi muthia (dumplings) with fenugreek, besan, spices. Prepare masala paste: coconut, coriander, peanuts, sesame, spice pastes, sugar, lemon juice. Stuff some vegetables with masala. Layer vegetables and muthia in a pressure cooker or heavy pot with oil and remaining masala. Cook on low heat or pressure cook until vegetables are tender. Mix gently before serving.",
+    "servings": 6
+  }
+]
