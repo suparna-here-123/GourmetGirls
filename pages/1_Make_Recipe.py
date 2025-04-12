@@ -1,10 +1,11 @@
 import streamlit as st
-from recoUtils import getCuisines, topKRecipes, scoreRecipes, getDairy, getNonDairy
+from recoUtils import getCuisines, topKRecipes, scoreRecipes
 
 # ------------------------------- Ingredient Options -------------------------------
-non_dairy_options = getNonDairy()
-dairy_options = getDairy()
-
+non_dairy_options = ["onion", "capsicum", "green chilli", "garlic", "carrot", "eggs", "flour"]
+dairy_options = ["milk", "cheese"]
+dairy_dict = {}
+non_dairy_dict = {}
 # ------------------------------- Initialize Session State -------------------------------
 if "numAllergens" not in st.session_state:
     st.session_state.numAllergens = 0
@@ -37,36 +38,124 @@ for i in range(st.session_state.numAllergens):
 
 st.button("+ Add another", on_click=add_allergen)
 
-# ------------------------------- Non-Dairy Ingredients -------------------------------
-st.subheader("Non-Dairy Ingredients")
-non_dairy_dict = {}
 
-for i in range(st.session_state.non_dairy_count):
+import requests, urllib.parse
+
+st.subheader("🧠 Detect Ingredients from Image")
+
+img_source = st.radio("Select image source:", ["Upload", "URL"])
+api_key = "u7WezrPPtxKRBHLcB4oZ"
+
+if img_source == "Upload":
+    uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
+    if uploaded_file:
+        st.image(uploaded_file, caption="Uploaded Image", use_column_width=True)
+
+        img_bytes = uploaded_file.getvalue()
+        files = {"image": img_bytes}
+
+        # For uploads, use detect.roboflow.com (not serverless)
+        response = requests.post(
+            "https://detect.roboflow.com/project2-exvgy/1",
+            params={"api_key": api_key},
+            files=files
+        )
+
+
+elif img_source == "URL":
+    img_url = st.text_input("Paste image URL:")
+    if img_url:
+        encoded_url = urllib.parse.quote_plus(img_url)
+
+        full_url = f"https://serverless.roboflow.com/project2-exvgy/1?api_key={api_key}&image={encoded_url}"
+        response = requests.post(full_url)
+
+# Parse and display detections
+detected_ingredients = []
+
+if 'response' not in locals():
+    st.warning("❗ API call not made yet. Upload an image or enter a URL.")
+elif response.status_code != 200:
+    st.error(f"❌ Roboflow API error: {response.status_code}")
+    st.text(response.text)
+else:
+    try:
+        data = response.json()
+        predictions = data.get("predictions", [])
+        detected_ingredients = list({pred["class"] for pred in predictions})
+        if detected_ingredients:
+            st.success("✅ Ingredients detected:")
+            st.write(detected_ingredients)
+        else:
+            st.info("⚠️ No ingredients detected. You can add them manually below.")
+    except Exception as e:
+        st.error(f"Error parsing response: {e}")
+        st.write(response.text)
+
+for i in detected_ingredients:
+    if i in dairy_options:
+        dairy_dict[i] = detected_ingredients.count(i)
+    else:
+        non_dairy_dict[i] = detected_ingredients.count(i)
+#st.write(non_dairy_dict)
+#st.write(dairy_dict)
+
+# -------------------------------------------------------------------------
+st.subheader("Non-Dairy Ingredients")
+
+# First, display all detected non-dairy ingredients with their counts
+for i, (ingredient, count) in enumerate(non_dairy_dict.items()):
     cols = st.columns([2, 1])
-    ingredient = cols[0].selectbox(
-        f"Ingredient {i + 1}", non_dairy_options, key=f"non_dairy_{i}"
+    cols[0].text(f"Detected: {ingredient}")
+    count_value = cols[1].number_input(
+        "Qty", min_value=1, max_value=10, value=count, key=f"non_dairy_detected_{ingredient}"
+    )
+    # Update the count in the dictionary
+    non_dairy_dict[ingredient] = count_value
+
+# Then add form for additional ingredients
+remaining_slots = st.session_state.non_dairy_count
+for i in range(remaining_slots):
+    cols = st.columns([2, 1])
+    new_ingredient = cols[0].selectbox(
+        f"Additional Ingredient {i + 1}", 
+        [None] + [opt for opt in non_dairy_options if opt not in non_dairy_dict], 
+        key=f"non_dairy_new_{i}"
     )
     qty = cols[1].number_input(
-        "Qty", min_value=1, max_value=10, value=1, key=f"non_dairy_qty_{i}"
+        "Qty", min_value=1, max_value=10, value=1, key=f"non_dairy_new_qty_{i}"
     )
-    non_dairy_dict[ingredient] = qty
+    if new_ingredient and new_ingredient != "None":
+        non_dairy_dict[new_ingredient] = qty
 
-if st.button("➕ Add Non-Dairy Ingredient"):
+if st.button("➕ Add More Non-Dairy"):
     st.session_state.non_dairy_count += 1
 
-# ------------------------------- Dairy Ingredients -------------------------------
 st.subheader("Dairy Ingredients")
-dairy_dict = {}
 
+# First, display all detected dairy ingredients with their counts
+for i, (ingredient, count) in enumerate(dairy_dict.items()):
+    cols = st.columns([2, 1])
+    cols[0].text(f"Detected: {ingredient}")
+    count_value = cols[1].number_input(
+        "Qty in cups", min_value=1, max_value=10, value=count, key=f"dairy_detected_{ingredient}"
+    )
+    # Update the count in the dictionary
+    dairy_dict[ingredient] = count_value
+
+# Then add form for additional ingredients
 for i in range(st.session_state.dairy_count):
     cols = st.columns([2, 1])
     dairy_ing = cols[0].selectbox(
-        f"Dairy Ingredient {i + 1}", dairy_options, key=f"dairy_{i}"
+        f"Additional Dairy {i + 1}", 
+        [opt for opt in dairy_options if opt not in dairy_dict], 
+        key=f"dairy_new_{i}"
     )
     qty = cols[1].number_input(
-        "Qty in cups?", min_value=1, max_value=10, value=1, key=f"dairy_qty_{i}"
+        "Qty in cups", min_value=1, max_value=10, value=1, key=f"dairy_new_qty_{i}"
     )
-    dairy_dict[dairy_ing] = qty
+    if dairy_ing:
+        dairy_dict[dairy_ing] = qty
 
 if st.button("➕ Add Dairy Ingredient"):
     st.session_state.dairy_count += 1
@@ -81,32 +170,47 @@ if st.button("Suggest Recipes"):
         numPpl, userCuisine, userCourse, userAllergens, prepTime, non_dairy_dict, dairy_dict
     )
 
-    topK = topKRecipes(5, scoredRecipes)
-    if topK :
-        for recipe in topK:
-            with st.container():
-                st.markdown("---")  # Section divider
+    if not scoredRecipes:
+        st.warning("No recipes match your criteria. Please adjust your inputs.")
+        st.session_state.recipe_results_ready = False
+    else:
+        topK = topKRecipes(5, scoredRecipes)
+        st.session_state.top_k_recipes = topK
+        st.session_state.recipe_results_ready = True
+        st.success(f"Found {len(topK)} matching recipes!")
 
-                # Card styling using columns
-                top_col1, top_col2 = st.columns([4, 1])
+# ------------------------------- Display Recipes & Handle Help Buttons -------------------------------
+if st.session_state.get("recipe_results_ready"):
+    topK = st.session_state.get("top_k_recipes", [])
 
-                with top_col1:
-                    st.markdown(f"### 🍽️ {recipe['recipe']}")
-                    st.markdown(f"*Total Match Score:* **{recipe['total_score']}**")
-                    st.markdown(f"*Ingredient Match Score:* **{recipe['ingredient_match_score']}**")
+    for i, recipe in enumerate(topK):
+        with st.container():
+            st.markdown("---")
+            top_col1, top_col2 = st.columns([4, 1])
+            with top_col1:
+                st.markdown(f"### 🍽️ {recipe['recipe']}")
+                st.markdown(f"*Total Match Score:* **{recipe['total_score']}**")
+                st.markdown(f"*Ingredient Match Score:* **{recipe['ingredient_match_score']}**")
 
-                st.markdown(" ")
+            st.markdown(" ")
+            st.markdown(f"**🗺️ Cuisine:** {recipe['cuisine']}  |  **🍽️ Course:** {recipe['course']}  |  ⏱️ **Prep Time:** {recipe['prep_time']}  |  🍴 **Servings:** {recipe['servings']}")
 
-                # Info block
-                st.markdown(f"**🗺️ Cuisine:** {recipe['cuisine']}  |  **🍽️ Course:** {recipe['course']}  |  ⏱️ **Prep Time:** {recipe['prep_time']}  |  🍴 **Servings:** {recipe['servings']}")
+            st.markdown("#### 👨‍🍳 Instructions")
+            st.markdown(f"{recipe['full_recipe']}")
 
-                st.markdown(" ")
+            st.markdown(" ")
 
-                # Instructions
-                st.markdown("#### 👨‍🍳 Instructions")
-                st.markdown(f"{recipe['recipe']}")
+            # Ensure each button has a unique key
+            if st.button("Need some help?", key=f"help_button_{i}"):
+                st.toast(f"🔁 Help selected for: {recipe['recipe']}")
+                st.session_state.selected_recipe = {
+                    'name': recipe['recipe'],
+                }
+                st.session_state.help_requested = True
 
-                st.markdown(" ")
-                st.markdown("---")  # Card bottom divider
-    else :
-        st.subheader("Couldn't find any recipes that matched :( Want to try recipes similar users tried?")
+            st.markdown("---")
+
+# ------------------------------- Redirect to Chatbot Page -------------------------------
+if st.session_state.get("help_requested"):
+    st.switch_page("pages/4_Recipe_Chatbot.py")
+    #st.session_state.help_requested = False  # Reset the flag after switching pages

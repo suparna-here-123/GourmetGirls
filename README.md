@@ -19,6 +19,9 @@ We aim to build a smart recipe assistant that can:
 
 ## Business Scope
 
+
+
+
 ## To-do
    * Add dairy recipes
 

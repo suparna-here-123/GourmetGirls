@@ -26,15 +26,15 @@
         ],
         "preferred_tags": [
             "vegetarian",
-            "quick",
-            "spicy"
+            "spicy",
+            "gourmet"
         ],
         "disliked_tags": [
             "non-vegetarian"
         ],
         "ingredient_bias": {
             "carrot": 3,
-            "onion": 2,
+            "onion": 4,
             "green chilli": 2,
             "ginger": 1
         }
@@ -45,7 +45,7 @@
             "Chinese"
         ],
         "preferred_tags": [
-            "vegetarian",
+            "comfort",
             "quick",
             "spicy"
         ],
@@ -54,7 +54,7 @@
         ],
         "ingredient_bias": {
             "potato": 3,
-            "capsicum": 2,
+            "capsicum": 5,
             "green chilli": 2,
             "ginger": 1
         }
@@ -67,14 +67,13 @@
         ],
         "preferred_tags": [
             "vegetarian",
-            "quick",
             "spicy"
         ],
         "disliked_tags": [
             "non-vegetarian"
         ],
         "ingredient_bias": {
-            "carrot": 3,
+            "garlic": 3,
             "onion": 2,
             "apple": 2,
             "ginger": 1
@@ -97,7 +96,7 @@
             "gluten-free"
         ],
         "ingredient_bias": {
-            "potato": 3,
+            "potato": 5,
             "carrot": 2,
             "milk": 2,
             "cabbage": 1
@@ -106,8 +105,7 @@
     "yumCook123": {
         "preferred_cuisines": [
             "Continental",
-            "Fusion",
-            "Chinese"
+            "Fusion"
         ],
         "preferred_tags": [
             "spicy",
@@ -119,7 +117,7 @@
         ],
         "ingredient_bias": {
             "potato": 3,
-            "carrot": 2,
+            "bell_pepper": 2,
             "milk": 2,
             "cabbage": 1
         }
@@ -132,21 +130,20 @@
         ],
         "preferred_tags": [
             "spicy",
-            "creative"
+            "comfort"
         ],
         "disliked_tags": [
             "gluten-free"
         ],
         "ingredient_bias": {
-            "potato": 3,
+            "bell_pepper": 3,
             "carrot": 2,
-            "milk": 2,
+            "potato": 2,
             "cabbage": 1
         }
     },
     "burpista@89": {
         "preferred_cuisines": [
-            "Continental",
             "Fusion",
             "Chinese"
         ],
@@ -184,7 +181,7 @@
         "ingredient_bias": {
             "onion": 3,
             "green chilli": 3,
-            "milk": 2,
+            "potato": 4,
             "apple": 1
         }
     },

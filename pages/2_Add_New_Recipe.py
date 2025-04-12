@@ -77,6 +77,7 @@ if st.button("Generate Recipe Dictionary"):
                     "tags": tags,
                     "recipe": recipe_text,
                     "servings": servings,
+                    "allergens" : [],
                     "source" : st.session_state.currentUser
                   }
     addRecipe(recipeID, recipe_dict)

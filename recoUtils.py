@@ -18,13 +18,13 @@ def getCuisines() :
     return ('Asian', 'Chinese', 'Continental', 'Indian', 'Fusion')
 
 def getNonDairy() :
-    return ["onion", "capsicum", "green chilli", "garlic", "carrot", "eggs", "flour"]
+    return ["onion", "capsicum", "green chilli", "garlic", "carrot", "eggs", "flour", "broccoli", "bell_pepper"]
 
 def getDairy() :
     return ["milk", "cheese"]
 
 def addRecipe(newRecID, newRecipe) :
-    with open('data/recipes.json') as f :
+    with open('data/recipes.json', 'w') as f :
         recipes[newRecID] = newRecipe
         f.write(json.dumps(recipes, indent = 2))
 
@@ -102,10 +102,10 @@ def topKRecipes(K, recipes) :
 
 # -- Recommend new recipes for user
 def getRecos(user_id : str, n : int) :
-    with open('/home/suppra/Desktop/GourmetGirls/models/svd_model_17.pkl', 'rb') as f:
+    with open('/home/suppra/Desktop/GourmetGirls/models/svd_model_2.pkl', 'rb') as f:
         algo = pickle.load(f)
 
-    with open('/home/suppra/Desktop/GourmetGirls/models/trainset_17.pkl', 'rb') as f:
+    with open('/home/suppra/Desktop/GourmetGirls/models/trainset_2.pkl', 'rb') as f:
         trainset = pickle.load(f)
     
     all_items = trainset.all_items()

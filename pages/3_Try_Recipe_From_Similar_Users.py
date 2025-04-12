@@ -29,7 +29,7 @@ for idx, (score, recipe) in enumerate(recos):
                 on_click=lambda r=recipe: st.session_state.update(selected_recipe=r),
             )
             if st.session_state.get("selected_recipe") == recipe:
-                st.switch_page("pages/1_Make_Recipe.py")
+                st.switch_page("pages/4_Recipe_Chatbot.py")
 
         st.markdown(" ")
 
