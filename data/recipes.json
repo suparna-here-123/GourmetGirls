@@ -953,7 +953,7 @@
     "Course": "Appetizer",
     "Non-dairy ingredients": {
       "broccoli": 3,
-      "capsicum": 5
+      "bell_pepper": 5
     },
     "dairy ingredients": {
       "milk": 1
@@ -963,7 +963,7 @@
       "vegetarian",
       "gourmet"
     ],
-    "allergens" : ["milk"]
+    "allergens" : ["milk"],
     "recipe": "Some recipe instructions, please follow carefully",
     "servings": 2,
     "source": "suparna@123"
