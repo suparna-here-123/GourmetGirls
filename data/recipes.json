@@ -963,7 +963,7 @@
       "vegetarian",
       "gourmet"
     ],
-    "allergens" : ["milk"]
+    "allergens" : ["milk"],
     "recipe": "Some recipe instructions, please follow carefully",
     "servings": 2,
     "source": "suparna@123"
