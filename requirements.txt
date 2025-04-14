@@ -1,6 +1,6 @@
 streamlit
 streamlit-extras
-surprise
+scikit-surprise
 shortuuid
 langchain
 langchain-community
