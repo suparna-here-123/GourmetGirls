@@ -6,7 +6,7 @@ from langchain_community.chat_models import ChatOllama
 # === Load vector store ===
 @st.cache_resource
 def load_vector_store():
-    with open("../embeddings_hf.pickle", "rb") as f:
+    with open("./data/embeddings_hf.pickle", "rb") as f:
         return pickle.load(f)
 
 vector_store = load_vector_store()
