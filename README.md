@@ -24,3 +24,24 @@ We aim to build a smart recipe assistant that can:
 2. Current version has 42 synthesized recipes, and 20 users split into 5 groups of 4 each, with each group having roughly the same preferences.
 3. Interactions of users with recipes have been simulated by calculating and selecting user-recipe pairs with high cosine-similarity (result of users liking/disliking a recipe)
 4. Recommendation engine based on SVD has been trained on this dataset, which has RMSE of ~1.7
+
+
+## Chatbot
+### Corpus (Provided to the LLM for Context)
+The corpus is a curated set of documents that provide essential cooking knowledge. It includes:
+
+1. Mishap Handling Tips  
+e.g., "Add a peeled raw potato to absorb excess salt"
+2. General Cooking Tips  
+e.g., "Fry onions till golden brown for richer gravies."
+3. Common Food Swaps   
+e.g., "No paneer? Use firm tofu"
+
+### RAG 
+RAG is an architecture that enhances LLMs by allowing them to retrieve relevant context from an **external corpus** before generating a response.
+In our case, the chatbot:
+
+1. Embeds the user query into a vector representation
+2. Retrieves top-matching documents or text chunks from our recipe corpus using semantic similarity (e.g., via vector DB)
+3. Feeds both the user query and the retrieved documents into the LLM
+4. The LLM then generates a response that is grounded in the retrieved context
