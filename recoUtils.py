@@ -102,10 +102,10 @@ def topKRecipes(K, recipes) :
 
 # -- Recommend new recipes for user
 def getRecos(user_id : str, n : int) :
-    with open('/home/suppra/Desktop/GourmetGirls/models/svd_model_2.pkl', 'rb') as f:
+    with open('models/svd_model_2.pkl', 'rb') as f:
         algo = pickle.load(f)
 
-    with open('/home/suppra/Desktop/GourmetGirls/models/trainset_2.pkl', 'rb') as f:
+    with open('models/trainset_2.pkl', 'rb') as f:
         trainset = pickle.load(f)
     
     all_items = trainset.all_items()
