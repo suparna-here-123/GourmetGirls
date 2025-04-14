@@ -65,4 +65,10 @@ We chose TinyLlama over larger or more powerful models like Mistral or Microsoft
    ```ollama pull tinyllama```
 3. Run it
    ```ollama run tinyllama```
+4. Run
+   `git clone https://github.com/suparna-here-123/GourmetGirls.git`
+
+5. Switch to directory project has been cloned into
+6. Install dependinces using `pip install requirements.txt`
+7. Run the app using ```streamlit run welcome.py```
 
