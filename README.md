@@ -45,3 +45,24 @@ In our case, the chatbot:
 2. Retrieves top-matching documents or text chunks from our recipe corpus using semantic similarity (e.g., via vector DB)
 3. Feeds both the user query and the retrieved documents into the LLM
 4. The LLM then generates a response that is grounded in the retrieved context
+
+### Implementation Details
+For the purpose of this hackathon, we have been running **TinyLlama**, a comparitively lightweight LLM running locally on our systems.   
+We are using **Ollama**, an application that allows us to download and use LLMs on our own devices, via an exposed API.
+
+
+**Why TinyLlama?**   
+We chose TinyLlama over larger or more powerful models like Mistral or Microsoft’s Phi-2 primarily due to its balance between performance and efficiency. 
+1. **Lightweight and Fast -** TinyLlama is significantly smaller in size (~1.1B parameters), which makes it ideal for running on local machines without needing high-end GPUs or cloud infrastructure  
+2. **Low Resource Requirements -** can run on consumer hardware smoothly  
+3. **Accurate Responses given for our use case -** gives fast and concise answers to our questions 
+
+
+**Setup Guide**
+1. Install Ollama from their website
+   ```https://ollama.com/```
+2. Download the model locally
+   ```ollama pull tinyllama```
+3. Run it
+   ```ollama run tinyllama```
+
