@@ -59,10 +59,21 @@ We chose TinyLlama over larger or more powerful models like Mistral or Microsoft
 
 
 **Setup Guide**
-1. Install Ollama from their website
+1. Install Ollama from their website<br>
    ```https://ollama.com/```
-2. Download the model locally
+2. Download the model locally<br>
    ```ollama pull tinyllama```
-3. Run it
+3. Run it <strong>(before running streamlit app)</strong><br>
    ```ollama run tinyllama```
+4. Run<br>
+   `git clone https://github.com/suparna-here-123/GourmetGirls.git`
 
+5. Switch to directory project has been cloned into
+
+6. Install dependinces using `pip install requirements.txt`
+
+7. Run the app using ```streamlit run welcome.py```
+
+8. <strong> Select a username in the welcome page from the dropdown box </strong>
+
+9. In the `Make Recipe` page, upload any image of vegetables for recognition
